@@ -3,12 +3,13 @@ import {
   Container,
   Row,
   Col,
-  Card,
+  Table,
   ListGroup,
   ListGroupItem,
+  Card,
 } from "react-bootstrap";
-import { FaCheck } from 'react-icons/fa';
-import business from '../../images/business.jpg'
+import { FaCheck } from "react-icons/fa";
+import business from "../../images/business.jpg";
 import GlobalHero from "../../components/GlobalComps/GlobalHero";
 
 const BusinessRegistrationPage = () => {
@@ -18,6 +19,98 @@ const BusinessRegistrationPage = () => {
     "Access to Funding: Many investors, banks, and government programs prefer working with registered businesses. This makes it easier to secure loans, investments, or grants to fuel your business growth.",
     "Tax Benefits: Different business structures come with unique tax advantages. Registering your business allows you to take advantage of deductions, credits, and tax incentives that can reduce your overall tax burden, leaving more money for your business's growth and development.",
     "Perpetual Existence: Certain business structures, like corporations, offer the advantage of perpetual existence. This means your business can continue to operate even if ownership changes or key individuals leave.",
+  ];
+  const businessTypes = [
+    {
+      type: "Sole Proprietorship",
+      advantages: "Simple ownership, full control.",
+      disadvantages: "Unlimited personal liability.",
+    },
+    {
+      type: "Partnership",
+      advantages: "Shared responsibilities, flexibility.",
+      disadvantages: "Shared personal liability.",
+    },
+    {
+      type: "Limited Liability Company (LLC)",
+      advantages: "Liability protection, management flexibility.",
+      disadvantages: "Compliance requirements.",
+    },
+    {
+      type: "C Corporation",
+      advantages: "Strong liability protection, access to capital.",
+      disadvantages: "Complex regulations, double taxation.",
+    },
+    {
+      type: "S Corporation",
+      advantages: "Limited liability, pass-through taxation.",
+      disadvantages: "Eligibility restrictions, ownership limitations.",
+    },
+    {
+      type: "Nonprofit Organization",
+      advantages: "Tax-exempt status, mission-driven.",
+      disadvantages: "Compliance with nonprofit regulations.",
+    },
+    {
+      type: "Limited Partnership",
+      advantages: "Limited liability for some partners.",
+      disadvantages: "General partner liability, complex structure.",
+    },
+    {
+      type: "Limited Liability Partnership (LLP)",
+      advantages: "Liability protection for partners.",
+      disadvantages: "Compliance requirements, limited availability.",
+    },
+    {
+      type: "General Partnership",
+      advantages: "Easy setup, shared profits.",
+      disadvantages: "Unlimited personal liability.",
+    },
+    {
+      type: "Cooperative (Co-op)",
+      advantages: "Shared ownership and control.",
+      disadvantages: "Complex decision-making, profit-sharing.",
+    },
+    {
+      type: "Professional Corporation (PC)",
+      advantages: "Liability protection for professionals.",
+      disadvantages: "Specialized structure, regulatory compliance.",
+    },
+    {
+      type: "B Corporation (Benefit Corporation)",
+      advantages: "Social and environmental responsibility.",
+      disadvantages: "Reporting requirements, public transparency.",
+    },
+    {
+      type: "Sole Proprietorship DBA (Doing Business As)",
+      advantages: "Flexibility to operate under a different name.",
+      disadvantages: "No liability protection.",
+    },
+    {
+      type: "Foreign Corporation",
+      advantages: "Expanding business into another state or country.",
+      disadvantages: "Compliance with foreign regulations.",
+    },
+    {
+      type: "Cooperative Corporation",
+      advantages: "Shared ownership, profit distribution.",
+      disadvantages: "Complex decision-making, governance.",
+    },
+    {
+      type: "Close Corporation",
+      advantages: "Limited number of shareholders, more control.",
+      disadvantages: "Limited transferability of shares.",
+    },
+    {
+      type: "Public Limited Company (PLC)",
+      advantages: "Publicly traded, access to capital.",
+      disadvantages: "Strict reporting requirements, public scrutiny.",
+    },
+    {
+      type: "Joint Venture",
+      advantages: "Collaboration for specific projects.",
+      disadvantages: "Potential disputes, shared risks.",
+    },
   ];
   return (
     <>
@@ -79,7 +172,7 @@ const BusinessRegistrationPage = () => {
         </Row>
 
         {/* Section 2: Why Business Registration Is Important */}
-          <h1 className="pt-5">Why is Business Registration Important?</h1>
+        <h1 className="pt-5">Why is Business Registration Important?</h1>
         <Row className="mb-4 align-items-center row-cols-1 row-cols-lg-2">
           <Col>
             <p className="my-3">
@@ -87,77 +180,165 @@ const BusinessRegistrationPage = () => {
               company's existence with the government. It offers a multitude of
               benefits that can significantly impact the success of your
               business:
-                </p>
-              <ListGroup>
-            {benefits.map((benefit, index) => (
-              <ListGroup.Item key={index}>
-                <FaCheck className="tick-mark-icon me-2" />
-                {benefit}
-              </ListGroup.Item>
-            ))}
-          </ListGroup>
+            </p>
+            <ListGroup>
+              {benefits.map((benefit, index) => (
+                <ListGroup.Item key={index}>
+                  <FaCheck className="tick-mark-icon me-2" />
+                  {benefit}
+                </ListGroup.Item>
+              ))}
+            </ListGroup>
           </Col>
           <Col>
-              <img src={business} alt="" className="img-fluid"/>
+            <img src={business} alt="" className="img-fluid" />
           </Col>
         </Row>
 
         {/* Section 3: Pros and Cons */}
-        <Row className="mb-4">
-          <Col>
-            <h2>Unveiling the Pros and Cons</h2>
-            <Row>
-              <Col sm={6}>
-                <h3>Advantages of Business Registration</h3>
-                <ListGroup>
-                  <ListGroupItem>
-                    1. Legal Recognition: Business registration grants...
-                  </ListGroupItem>
-                  {/* Add more items */}
-                </ListGroup>
-              </Col>
-              <Col sm={6}>
-                <h3>Disadvantages of Business Registration</h3>
-                <ListGroup>
-                  <ListGroupItem>
-                    1. Costs and Formalities: Registering a business can be
-                    costly...
-                  </ListGroupItem>
-                  {/* Add more items */}
-                </ListGroup>
-              </Col>
-            </Row>
-          </Col>
-        </Row>
+        <div className="pt-5">
+          <h2 className="py-3">Unveiling the Pros and Cons </h2>
+          <Table responsive striped bordered hover>
+            <thead>
+              <tr>
+                <th>Advantages</th>
+                <th>Disadvantages</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <ol>
+                    <li>
+                      Legal Recognition:
+                      <p>
+                        Business registration grants your venture legal
+                        recognition, making it a distinct legal entity. This
+                        separation between personal and business assets offers
+                        valuable protection. Your personal assets are shielded
+                        from business debts and liabilities.
+                      </p>
+                    </li>
+                    <li>
+                      Credibility and Trust:
+                      <p>
+                        Registered businesses often enjoy higher credibility and
+                        trust among customers, partners, and investors. It
+                        demonstrates your commitment and professionalism, which
+                        can be a competitive edge in your industry.
+                      </p>
+                    </li>
+                    <li>
+                      Access to Funding:
+                      <p>
+                        Business registration can make it easier to secure
+                        funding. Many investors, banks, and government programs
+                        prefer working with registered businesses, increasing
+                        your chances of obtaining loans, investments, or grants.
+                      </p>
+                    </li>
+                    <li>
+                      Tax Benefits:
+                      <p>
+                        Different business structures come with unique tax
+                        benefits. Business registration enables you to take
+                        advantage of deductions, credits, and incentives that
+                        can significantly reduce your tax burden.
+                      </p>
+                    </li>
+                  </ol>
+                </td>
+                <td>
+                  <ol>
+                    <li>
+                      Costs and Formalities:
+                      <p>
+                        Registering a business can be costly and involve complex
+                        formalities. Fees, legal documentation, and ongoing
+                        compliance requirements can add financial and
+                        administrative burdens.
+                      </p>
+                    </li>
+                    <li>
+                      Disclosure of Information:
+                      <p>
+                        Depending on the business structure and jurisdiction,
+                        registered businesses may be required to disclose
+                        sensitive information, including financial details, to
+                        government authorities. This lack of privacy can be a
+                        drawback for some business owners.
+                      </p>
+                    </li>
+                    <li>
+                      Complexity of Compliance:
+                      <p>
+                        Maintaining compliance with the regulations can be
+                        challenging. Failure to adhere to legal requirements can
+                        result in penalties or legal consequences.
+                      </p>
+                    </li>
+                    <li>
+                      Limited Flexibility:
+                      <p>
+                        Some business structures, like corporations, have
+                        stricter management and reporting requirements. This can
+                        limit the flexibility and autonomy you have in managing
+                        your business.
+                      </p>
+                    </li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
 
         {/* Section 4: Types of Business Registrations */}
-        <Row className="mb-4">
-          <Col>
-            <h2>Types of Business Registrations</h2>
-            <ListGroup>
-              <ListGroupItem>
-                1. Sole Proprietorship: - Advantages: Simple ownership, full
-                control.
-              </ListGroupItem>
-              <ListGroupItem>
-                2. Partnership: - Advantages: Shared responsibilities,
-                flexibility.
-              </ListGroupItem>
-              {/* Add more items */}
-            </ListGroup>
-          </Col>
+        <h1 className="pt-5">Types of Business Registrations</h1>
+        <Row xs={1} md={2} lg={3} className="py-4">
+          {businessTypes.map((type, index) => (
+            <Col key={index} className="mb-4">
+              <Card>
+                <Card.Body>
+                  <Card.Title>{type.name}</Card.Title>
+                  <Card.Text>
+                    <strong>Advantages:</strong> {type.advantages}
+                  </Card.Text>
+                  <Card.Text>
+                    <strong>Disadvantages:</strong> {type.disadvantages}
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
         </Row>
 
         {/* Section 5: Choosing the Right Business Structure */}
-        <Row>
+        <Row className="pt-5">
           <Col>
             <h2>Choosing the Right Business Structure</h2>
+            <ul>
+              <li>
+                The choice of business structure should align with your specific
+                goals, industry, and business size. Consider your long-term
+                objectives, the level of liability protection you need, and the
+                administrative requirements you're willing to meet.{" "}
+              </li>
+              <li>
+                Seek legal and financial advice to make an informed decision.
+                Professional guidance can help you navigate the complexities of
+                business registration and choose the structure that best suits
+                your needs.
+              </li>
+            </ul>
             <p>
-              The choice of business structure should align with your specific
-              goals...
-            </p>
-            <p>
-              Seek legal and financial advice to make an informed decision...
+              At RSNRMuneemji, we're dedicated to guiding you through the
+              intricacies of business registration and helping you select the
+              right structure for your unique venture. For personalized
+              assistance and a smooth registration process, reach out to our
+              experts. Your path to business success starts with proper
+              registration, so don't delay in unlocking your business's full
+              potential.{" "}
             </p>
           </Col>
         </Row>

@@ -18,6 +18,7 @@ import AuditingAndAssuarance from "./pages/BooksAndTaxes/AuditingAndAssuarance";
 import BusinessRegistrationPage from "./pages/TitlePages/BusinessRegistrationPage";
 import Footercomp from "./sections/Footersection/Footercomp";
 import Footerbottom from "./sections/Footersection/Footerbottom";
+import SoleProprietorships from "./pages/Services/BusinessRegistration/SoleProprietorships";
 function App() {
   return (
     <>
@@ -32,6 +33,7 @@ function App() {
 
           {/* Services  */}
           <Route path="/one-person-company" element={<OnePersonCompany />} />
+          <Route path="/sole-proprietorship" element={<SoleProprietorships />} />
           <Route path="/partnership" element={<Partnership />} />
           <Route path="/ngo-registration" element={<NgoRegistration />} />
 

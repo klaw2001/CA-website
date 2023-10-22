@@ -12,7 +12,7 @@ const ServicesDropDown = () => {
       title: "Business Registration",
       path:'/business-registration',
       navLinks: [
-        { text: "Sole Proprietorship", url: "/" },
+        { text: "Sole Proprietorship", url: "/sole-proprietorship" },
         { text: "One Person Company", url: "/one-person-company" },
         { text: "Private Limited Registration", url: "/one-person-company" },
         { text: "nidhi company registration", url: "/" },
