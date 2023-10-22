@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.themebg{
+  background-color: #411459 !important;
+  transition: all 0.3s !important;
+}
+
+.themebg:hover{
+  background-color: #005C06 !important;
+}
+
+.footerbg{
+  background-color: #411459 !important;
+}
+
+.themetext{
+  color:#411459;
+}
+
+.themetext2{
+  color:#005C06;
+}
+
+.text-blue{
+  color: #188ec9;
+}
+.bg-blue{
+  color: #188ec9;
+}
+h1,h2,h3,h4,h5,h6{
+  margin-bottom: 0 !important;
+}
+.app-btn{
+  background:  #411459 !important;
+  padding: 10px 30px!important;
+  font-size: 18px !important;
+  transition: all 0.4s !important;
+  width: max-content;
+}
+
+.app-btn:hover{
+  background-color: #005C06 !important;
+}
+
+.nav-link {
+  padding: 0px 15px !important;
+  color: black !important;
+}
+.page-active{
+  color: #188ec9;
+}
+
+.carousel-text {
+  background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(0, 0, 0, 0.516)), url(images/hero-1.png);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0px;
+}
+
+.carousel-text-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(0, 0, 0, 0.516)), url(images/hero-2.png);
+  text-align: center;
+
+}
+
+.carousel-text-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(0, 0, 0, 0.516)), url(images/hero-3.png);
+  text-align: right;
+
+}
+
+.icon-box span{
+  padding: 0px 5px;
+}
+
+.aboutcard{
+  right: 20%;
+}
+
+.cardimg{
+  height: 80px !important;
+  width: 80px !important;
+  border-radius: 50% !important;
+}
+
+.newsletter-section {
+  background-image: url("./sections//assests/banner-3.jpg"); 
+  background-size: cover;
+
+}
+
+.background {
+  height: 500px !important;
+  width: 100% !important;
+}
+
+
+
+.contact-form {
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form .form-input,
+.form-text-area {
+  background-color: #f0f4f5;
+  height: 50px;
+  padding-left: 16px;
+}
+
+.contact-form .form-text-area {
+  background-color: #f0f4f5;
+  height: auto;
+  padding-left: 16px;
+}
+
+.contact-form .form-control::placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.contact-form .form-control:-ms-input-placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+}
+
+.contact-form .form-control::-ms-input-placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+}
+
+
+
+.contact-form .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-form .description {
+  color: #aeb4b9;
+  font-size: 14px;
+}
+
+.contact-form .submit-button-wrapper {
+  text-align: center;
+}
+
+
+
+@media screen and (max-width:769px) {
+  .nav-elements a{
+    padding: 8px 0px !important;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .aboutcard{
+    right: 0 !important; 
+  }
+  .iframe iframe{
+    width: 400px !important;
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services dropdown  */
+.dropdown-menu{
+  --bs-dropdown-min-width: 46rem !important;
+}
+.dropdown-menu[data-bs-popper] {
+  left: -274px !important;
+}
+.other-hero-wrapper{
+  padding: 150px 0px;
+  background-color: grey;
+}
