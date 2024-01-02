@@ -79,7 +79,7 @@ const BooksAndTaxesDropDown = () => {
       onMouseLeave={() => setIsDropdownOpen(false)}
     >
       <div className="services-drop-wrapper">
-        <Row className="row-cols-4 flex-grow-4 p-2">
+        <Row className="row-cols-1 row-cols-lg-4 flex-grow-4 p-2">
           {links.map((elem, ind) => (
             <Col key={ind}>
               <h5 className="pb-2 mb-2 border-bottom">{elem.title}</h5>

@@ -14,8 +14,8 @@ const ServicesDropDown = () => {
       navLinks: [
         { text: "Sole Proprietorship", url: "/sole-proprietorship" },
         { text: "One Person Company", url: "/one-person-company" },
-        { text: "Private Limited Registration", url: "/one-person-company" },
-        { text: "nidhi company registration", url: "/" },
+        { text: "Private Limited Registration", url: "/private-limited-registration" },
+        { text: "nidhi company registration", url: "/nidhi-company-registration" },
         { text: "Ngo Registration", url: "/ngo-registration" },
         { text: "Society Registration", url: "/ngo-registration" },
         { text: "Trust Registration", url: "/ngo-registration" },
@@ -103,10 +103,10 @@ const ServicesDropDown = () => {
         onMouseLeave={() => setIsDropdownOpen(false)}
       >
         <div className="services-drop-wrapper">
-          <Row className="row-cols-4 flex-grow-4 p-2">
+          <Row className="row-cols-1 row-cols-lg-4 flex-grow-4 p-2">
             {links.map((elem, ind) => (
               <Col key={ind}>
-                <h5 className="pb-2 mb-2 border-bottom"><Link to={elem.path}>{elem.title}</Link></h5>
+                <h5 className="pb-2 mb-2 border-bottom"><Link to={elem.path} className="text-dark">{elem.title}</Link></h5>
                 <ul className="p-0">
                   {elem.navLinks.map((link, index) => (
                     <li

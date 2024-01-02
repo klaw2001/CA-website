@@ -41,7 +41,7 @@ function MyNavbar() {
            <BooksAndTaxesDropDown/>
 
             <NavLink
-              to="link"
+              to="/about"
               className="text-decoration-none text-dark nav-link"
             >
               About

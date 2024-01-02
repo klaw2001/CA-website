@@ -19,6 +19,9 @@ import BusinessRegistrationPage from "./pages/TitlePages/BusinessRegistrationPag
 import Footercomp from "./sections/Footersection/Footercomp";
 import Footerbottom from "./sections/Footersection/Footerbottom";
 import SoleProprietorships from "./pages/Services/BusinessRegistration/SoleProprietorships";
+import About from "./pages/About";
+import NidhiCompanyReg from "./pages/Services/BusinessRegistration/NidhiCompanyReg";
+import PrivateLimitedReg from "./pages/Services/BusinessRegistration/PrivateLimitedReg";
 function App() {
   return (
     <>
@@ -27,12 +30,16 @@ function App() {
         <MyNavbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
 
           {/* Seperate Pages  */}
           <Route path="/business-registration" element={<BusinessRegistrationPage/>}/>
 
           {/* Services  */}
           <Route path="/one-person-company" element={<OnePersonCompany />} />
+          <Route path="/private-limited-registration" element={<PrivateLimitedReg />} />
+
+          <Route path="/nidhi-company-registration" element={<NidhiCompanyReg />} />
           <Route path="/sole-proprietorship" element={<SoleProprietorships />} />
           <Route path="/partnership" element={<Partnership />} />
           <Route path="/ngo-registration" element={<NgoRegistration />} />
