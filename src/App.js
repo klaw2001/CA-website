@@ -22,6 +22,9 @@ import SoleProprietorships from "./pages/Services/BusinessRegistration/SolePropr
 import About from "./pages/About";
 import NidhiCompanyReg from "./pages/Services/BusinessRegistration/NidhiCompanyReg";
 import PrivateLimitedReg from "./pages/Services/BusinessRegistration/PrivateLimitedReg";
+import StartupIndia from "./pages/Services/OtherRegistrations/StartupIndia";
+import MSMERegistration from "./pages/Services/OtherRegistrations/MSMERegistration";
+import Section12A from "./pages/Services/OtherRegistrations/Section12A";
 function App() {
   return (
     <>
@@ -47,6 +50,19 @@ function App() {
           <Route
             path="/document-and-licenses"
             element={<DocumentAndLicense />}
+          />
+
+          <Route
+            path="/startup-india-registration"
+            element={<StartupIndia />}
+          />
+          <Route
+            path="/msme-registration"
+            element={<MSMERegistration />}
+          />
+          <Route
+            path="/section-80G-and-12A"
+            element={<Section12A />}
           />
 
           <Route

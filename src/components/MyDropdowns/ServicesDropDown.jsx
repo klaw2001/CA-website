@@ -43,10 +43,10 @@ const ServicesDropDown = () => {
       navLinks: [
         {
           text: "Startup india Registration",
-          url: "/",
+          url: "/startup-india-registration",
         },
-        { text: "MSME registration", url: "/" },
-        { text: "Section 80G and Section 12A", url: "/" },
+        { text: "MSME registration", url: "/msme-registration" },
+        { text: "Section 80G and Section 12A", url: "/section-80G-and-12A" },
         {
           text: "Provident fund Registration",
           url: "/provident-fund-registration",
