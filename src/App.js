@@ -25,6 +25,7 @@ import PrivateLimitedReg from "./pages/Services/BusinessRegistration/PrivateLimi
 import StartupIndia from "./pages/Services/OtherRegistrations/StartupIndia";
 import MSMERegistration from "./pages/Services/OtherRegistrations/MSMERegistration";
 import Section12A from "./pages/Services/OtherRegistrations/Section12A";
+import Compliances from "./pages/Services/Compliances/Compliances";
 function App() {
   return (
     <>
@@ -73,6 +74,10 @@ function App() {
           <Route
             path="/trademark-and-copywright"
             element={<TrademarkAndCopywright />}
+          />
+          <Route
+            path="/compliances"
+            element={<Compliances />}
           />
 
           {/* Books And Taxes  */}

@@ -84,11 +84,11 @@ const ServicesDropDown = () => {
       navLinks: [
         {
           text: "Annual MCA Compliance",
-          url: "/",
+          url: "/compliances",
         },
-        { text: "Regular Compulsary Filings", url: "/" },
-        { text: "NGO compliance", url: "/" },
-        { text: "Section 8 Compliance", url: "/" },
+        { text: "Regular Compulsary Filings", url: "/compliances" },
+        { text: "NGO compliance", url: "/compliances" },
+        { text: "Section 8 Compliance", url: "/compliances" },
       ],
     },
   ];
