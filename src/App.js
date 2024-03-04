@@ -38,6 +38,8 @@ import Section8Company from "./pages/Services/BusinessRegistration/Section8Compa
 import PrivateLimitedAmendment from "./pages/Services/ChangeInBusiness/PrivateLimitedAmendment";
 import BusinessDeeds from "./pages/Services/ChangeInBusiness/BusinessDeeds";
 import ChangeBusiness from "./pages/Services/ChangeInBusiness/ChangeBusiness";
+import CareerOpportunities from "./pages/WorkRSNR/CareerOpportunities";
+import LifeInsuranceSection from "./pages/WorkRSNR/LifeInsuranceSection";
 function App() {
   return (
     <>
@@ -48,6 +50,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
 
+          {/* Work With US  */}
+
+          <Route path="/career-opportunities" element={<CareerOpportunities/>}/>
+          <Route path="/student-life-insaurance" element={<LifeInsuranceSection/>}/>
           {/* Seperate Pages  */}
           <Route path="/business-registration" element={<BusinessRegistrationPage/>}/>
 

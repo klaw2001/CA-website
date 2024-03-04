@@ -47,10 +47,10 @@ function MyNavbar() {
               About
             </NavLink>
             <NavLink
-              to="link"
+              to="/loan-rsnr"
               className="text-decoration-none text-dark nav-link"
             >
-              Blog
+              Loan
             </NavLink>
             <div className="ms-lg-5">
               <Link>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavDropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const WorkWithUs = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -16,11 +17,18 @@ const WorkWithUs = () => {
         onMouseEnter={() => setIsDropdownOpen(true)}
         onMouseLeave={() => setIsDropdownOpen(false)}
       >
-        <NavDropdown.Item to="action/3.1">CA Professionals</NavDropdown.Item>
-        <NavDropdown.Item to="action/3.2">CS Professionals</NavDropdown.Item>
+        <NavDropdown.Item>
+
+        <Link to="/career-opportunities" className="text-dark text-decoration-none">Career Opportunities</Link>
+        </NavDropdown.Item>
+        <NavDropdown.Item>
+
+        <Link to="/student-life-insaurance" className="text-dark text-decoration-none">Student Life Ins.</Link>
+        </NavDropdown.Item>
+        {/* <NavDropdown.Item to="action/3.2">CS Professionals</NavDropdown.Item>
         <NavDropdown.Item to="action/3.3">CMA Professionals</NavDropdown.Item>
         <NavDropdown.Item to="action/3.3">Tax Consultants</NavDropdown.Item>
-        <NavDropdown.Item to="action/3.4">Accountants</NavDropdown.Item>
+        <NavDropdown.Item to="action/3.4">Accountants</NavDropdown.Item> */}
         {/* <NavDropdown.Divider /> */}
       </NavDropdown>
     </>
