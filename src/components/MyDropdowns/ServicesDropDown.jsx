@@ -17,9 +17,9 @@ const ServicesDropDown = () => {
         { text: "Private Limited Registration", url: "/private-limited-registration" },
         { text: "nidhi company registration", url: "/nidhi-company-registration" },
         { text: "Ngo Registration", url: "/ngo-registration" },
-        { text: "Society Registration", url: "/ngo-registration" },
-        { text: "Trust Registration", url: "/ngo-registration" },
-        { text: "section 8 company registration", url: "/ngo-registration" },
+        { text: "Society Registration", url: "/society-registration" },
+        { text: "Trust Registration", url: "/trust-registration" },
+        { text: "section 8 company registration", url: "/section-8-company-registration" },
         { text: "limited liability partnership", url: "/partnership" },
         { text: "partnership firm", url: "/partnership" },
         { text: "Joint Venture", url: "/partnership" },
@@ -73,10 +73,10 @@ const ServicesDropDown = () => {
       navLinks: [
         {
           text: "Amendment in Private Limited documents",
-          url: "/",
+          url: "/private-limited-documents",
         },
-        { text: "Amendment in business deeds", url: "/" },
-        { text: "Convert Your Business", url: "/" },
+        { text: "Amendment in business deeds", url: "/amendment-in-business-deeds" },
+        { text: "Convert Your Business", url: "/convert-your-business" },
       ],
     },
     {

@@ -33,7 +33,7 @@ const GstAndIndirectTax = () => {
 
   return (
     <>
-      <GlobalHero heading="Gst And Indirect Tax" />
+      <GlobalHero heading="GST And Indirect Tax" />
       <section>
         <Container>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">

@@ -32,6 +32,12 @@ import TDSreturns from "./pages/BooksAndTaxes/IncomeTaxAndOtherTax/TDSreturns";
 import AdvanceTax from "./pages/BooksAndTaxes/IncomeTaxAndOtherTax/AdvanceTax";
 import GSTresgistration from "./pages/BooksAndTaxes/GSTresgistration";
 import GSTreturns from "./pages/BooksAndTaxes/GSTreturns";
+import SocietyRegistration from "./pages/Services/BusinessRegistration/SocietyRegistration";
+import TrustRegistration from "./pages/Services/BusinessRegistration/TrustRegistration";
+import Section8Company from "./pages/Services/BusinessRegistration/Section8Company";
+import PrivateLimitedAmendment from "./pages/Services/ChangeInBusiness/PrivateLimitedAmendment";
+import BusinessDeeds from "./pages/Services/ChangeInBusiness/BusinessDeeds";
+import ChangeBusiness from "./pages/Services/ChangeInBusiness/ChangeBusiness";
 function App() {
   return (
     <>
@@ -53,6 +59,9 @@ function App() {
           <Route path="/sole-proprietorship" element={<SoleProprietorships />} />
           <Route path="/partnership" element={<Partnership />} />
           <Route path="/ngo-registration" element={<NgoRegistration />} />
+          <Route path="/society-registration" element={<SocietyRegistration />} />
+          <Route path="/trust-registration" element={<TrustRegistration />} />
+          <Route path="/section-8-company-registration" element={<Section8Company />} />
 
           <Route
             path="/document-and-licenses"
@@ -77,10 +86,24 @@ function App() {
             element={<ProvidentFundRegistration />}
           />
 
+
           <Route
             path="/trademark-and-copywright"
             element={<TrademarkAndCopywright />}
           />
+          <Route
+            path="/private-limited-documents"
+            element={<PrivateLimitedAmendment />}
+          />
+          <Route
+            path="/amendment-in-business-deeds"
+            element={<BusinessDeeds />}
+          />
+          <Route
+            path="/convert-your-business"
+            element={<ChangeBusiness />}
+          />
+
           <Route
             path="/compliances"
             element={<Compliances />}
