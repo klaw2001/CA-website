@@ -227,7 +227,7 @@ const MSMERegistration = () => {
       <section>
         <Container>
           <h1 className="text-center my-4 fw-bold">
-            Startup India Registration{" "}
+            MSME Registration{" "}
           </h1>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">
             <Col className="order-1">

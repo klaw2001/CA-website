@@ -26,6 +26,12 @@ import StartupIndia from "./pages/Services/OtherRegistrations/StartupIndia";
 import MSMERegistration from "./pages/Services/OtherRegistrations/MSMERegistration";
 import Section12A from "./pages/Services/OtherRegistrations/Section12A";
 import Compliances from "./pages/Services/Compliances/Compliances";
+import TaxAdvisory from "./pages/BooksAndTaxes/IncomeTaxAndOtherTax/TaxAdvisory";
+import IncomeTaxReturn from "./pages/BooksAndTaxes/IncomeTaxAndOtherTax/IncomeTaxReturn";
+import TDSreturns from "./pages/BooksAndTaxes/IncomeTaxAndOtherTax/TDSreturns";
+import AdvanceTax from "./pages/BooksAndTaxes/IncomeTaxAndOtherTax/AdvanceTax";
+import GSTresgistration from "./pages/BooksAndTaxes/GSTresgistration";
+import GSTreturns from "./pages/BooksAndTaxes/GSTreturns";
 function App() {
   return (
     <>
@@ -87,12 +93,18 @@ function App() {
           />
           <Route path="/certification" element={<Certifications />} />
           <Route path="/auditing" element={<AuditingAndAssuarance />} />
-          <Route path="/income-tax-advisory" element={<IncomeTaxAdvisory />} />
+          <Route path="/income-tax-and-other-taxes" element={<IncomeTaxAdvisory />} />
+          <Route path="/income-tax-advisory" element={<TaxAdvisory />} />
+          <Route path="/income-tax-return" element={<IncomeTaxReturn />} />
+          <Route path="/tds-returns-and-fillings" element={<TDSreturns />} />
+          <Route path="/advance-tax" element={<AdvanceTax />} />
           <Route
             path="/professional-tax-registration"
             element={<ProfessionalTaxRegistration />}
           />
           <Route path="/gst-and-indirect-tax" element={<GstAndIndirectTax />} />
+          <Route path="/gst-registration" element={<GSTresgistration />} />
+          <Route path="/gst-returns" element={<GSTreturns />} />
 
           {/* Loan And Advances  */}
           <Route path="/loan-rsnr" element={<LoanRsnr />} />

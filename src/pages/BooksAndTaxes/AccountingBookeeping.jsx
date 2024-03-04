@@ -139,7 +139,7 @@ const AccountingBookeeping = () => {
                   style={{ width: "fit-content" }}
                 >
                   <span style={{ width: "50px" }}>{document.icon}</span>
-                </div>
+                </div>  
                 <div className="">
                   <h4 className="mb-2">{document.title}</h4>
                   <p>{document.details}</p>
