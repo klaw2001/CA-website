@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavDropdown } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 
-const LoanDropDown = () => {
+const LoanDropDown = ({handleClose}) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const closeDropdown = () => {
     setIsDropdownOpen(false);
@@ -13,12 +13,13 @@ const LoanDropDown = () => {
       <NavDropdown
         title="Others"
         id="basic-nav-dropdown"
-        show={isDropdownOpen}
-        onMouseEnter={() => setIsDropdownOpen(true)}
-        onMouseLeave={() => setIsDropdownOpen(false)}
+        // show={isDropdownOpen}
+        // onMouseEnter={() => setIsDropdownOpen(true)}
+        // onMouseLeave={() => setIsDropdownOpen(false)}
       >
         <NavDropdown.Item>
           <NavLink
+          onClick={handleClose}
             to="/loan-rsnr"
             className="text-decoration-none text-dark nav-link"
           >

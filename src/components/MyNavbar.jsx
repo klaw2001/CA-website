@@ -25,45 +25,49 @@ function MyNavbar() {
           <img src={logo} alt="" width={170} />
         </Navbar.Brand>
         <Navbar.Toggle onClick={handleShow} />
-        <Offcanvas show={show} onHide={handleClose} responsive="lg" placement="end">
-        <Offcanvas.Header closeButton>
-        </Offcanvas.Header>
-        <Offcanvas.Body className="">
-          <Nav className="m-auto nav-elements text-dark d-lg-flex align-items-lg-center">
-            <NavLink
-              to="/"
-              className="page-active text-decoration-none nav-link"
-            >
-              Home
-            </NavLink>
+        <Offcanvas
+          show={show}
+          onHide={handleClose}
+          responsive="lg"
+          placement="end"
+        >
+          <Offcanvas.Header closeButton></Offcanvas.Header>
+          <Offcanvas.Body className="">
+            <Nav className="m-auto nav-elements text-dark d-lg-flex align-items-lg-center">
+              <NavLink
+                onClick={handleClose}
+                to="/"
+                className="page-active text-decoration-none nav-link"
+              >
+                Home
+              </NavLink>
 
-           <BooksAndTaxesDropDown/>
-           <ServicesDropDown/>
-           {/* <NavLink
-              to="/loan-rsnr"
-              className="text-decoration-none text-dark nav-link"
-            >
-              Loan
-            </NavLink> */}
-            <LoanDropDown/>
-           <WorkWithUs/>
+              <BooksAndTaxesDropDown handleClose={handleClose} />
+              <ServicesDropDown handleClose={handleClose} />
 
-            <NavLink
-              to="/about"
-              className="text-decoration-none text-dark nav-link"
-            >
-              About
-            </NavLink>
-          
-            <div className="ms-lg-5">
-              <Link to="/contact">
-                <button className="app-btn text-light border-0 rounded">
-                  Get Appoinment
-                </button>
-              </Link>
-            </div>
-          </Nav>
-        </Offcanvas.Body>
+              <LoanDropDown handleClose={handleClose} />
+              <WorkWithUs handleClose={handleClose} />
+
+              <NavLink
+                onClick={handleClose}
+                to="/about"
+                className="text-decoration-none text-dark nav-link"
+              >
+                About
+              </NavLink>
+
+              <div className="ms-lg-5">
+                <Link to="/contact">
+                  <button
+                    className="app-btn text-light border-0 rounded"
+                    onClick={handleClose}
+                  >
+                    Get Appoinment
+                  </button>
+                </Link>
+              </div>
+            </Nav>
+          </Offcanvas.Body>
         </Offcanvas>
       </Container>
     </Navbar>

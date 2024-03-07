@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { Col, NavDropdown, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const BooksAndTaxesDropDown = () => {
+const BooksAndTaxesDropDown = ({handleClose}) => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const links = [
@@ -74,9 +74,9 @@ const BooksAndTaxesDropDown = () => {
       title="Books And Taxes"
       id="basic-nav-dropdown"
       className="w-100"
-      show={isDropdownOpen}
-      onMouseEnter={() => setIsDropdownOpen(true)}
-      onMouseLeave={() => setIsDropdownOpen(false)}
+      // show={isDropdownOpen}
+      // onMouseEnter={() => setIsDropdownOpen(true)}
+      // onMouseLeave={() => setIsDropdownOpen(false)}
     >
       <div className="services-drop-wrapper">
         <Row className="row-cols-1 row-cols-lg-4 flex-grow-4 p-2">
@@ -92,6 +92,7 @@ const BooksAndTaxesDropDown = () => {
                     onClick={closeDropdown}
                   >
                     <Link
+                    onClick={handleClose}
                       to={link.url}
                       className="text-decoration-none text-dark"
                     >
