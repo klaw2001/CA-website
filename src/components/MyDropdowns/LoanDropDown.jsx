@@ -13,9 +13,9 @@ const LoanDropDown = ({handleClose}) => {
       <NavDropdown
         title="Others"
         id="basic-nav-dropdown"
-        // show={isDropdownOpen}
-        // onMouseEnter={() => setIsDropdownOpen(true)}
-        // onMouseLeave={() => setIsDropdownOpen(false)}
+        show={isDropdownOpen}
+        onMouseEnter={() => setIsDropdownOpen(true)}
+        onMouseLeave={() => setIsDropdownOpen(false)}
       >
         <NavDropdown.Item>
           <NavLink
