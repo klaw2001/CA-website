@@ -28,7 +28,7 @@ const ContactFormFloating = ({ isOpen}) => {
 
   return (
     <>
-      <section className={`position-fixed floating-form w-50 mt-5 bg-white rounded p-3 ${isOpen ? 'form-open' : 'form-closed'}`}>
+      <section className={`position-fixed floating-form mt-5 bg-white rounded p-3 ${isOpen ? 'form-open' : 'form-closed'}`}>
         <Container>
             <h2 className="mb-3">Contact Now</h2>
           <Form noValidate validated={validated} onSubmit={handleSubmit}>

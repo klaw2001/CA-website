@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 html{
   scroll-behavior: smooth;
@@ -195,6 +196,9 @@ h5{
   .dropdown-menu {
     --bs-dropdown-min-width: 10rem !important;
 }
+.floating-form{
+  width: 75% !important;
+}
 } 
 
 
@@ -217,6 +221,8 @@ h5{
   left: -274px !important;
 }
 .other-hero-wrapper{
+  background: linear-gradient(rgba(0, 0, 0, 0.579) , rgba(0, 0, 0, 0.552)), url(images/hero-bg-1.jpg);
+  background-size: cover;
   padding: 150px 0px;
   background-color: grey;
 }
@@ -228,10 +234,17 @@ h5{
 
 }
 .floating-form{
+  top: 75px;
+
   z-index: 99999;
   transition: 0.3s;
+  width: 50%;
 }
 
+.offcanvas-lg.offcanvas-end {
+  z-index: 999999 !important;
+ 
+}
 
 
 

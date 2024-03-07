@@ -59,7 +59,7 @@ function App() {
         <Button
           className="position-fixed end-0"
           onClick={toggleForm}
-          style={{ zIndex: "8888" }}
+          style={{ zIndex: "8888" , top:"40px" }}
         >
           Enquire Now
         </Button>

@@ -11,7 +11,7 @@ const WorkWithUs = () => {
   return (
     <>
       <NavDropdown
-        title="Work With Us"
+        title="Career Opportunities"
         id="basic-nav-dropdown"
         show={isDropdownOpen}
         onMouseEnter={() => setIsDropdownOpen(true)}

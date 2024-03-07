@@ -19,13 +19,13 @@ const TopBar = () => {
                 <div className="me-4 ">
                   <span className="d-flex align-items-center">
                     <HiMail className="text-white fs-5 me-1" />
-                    info@gmail.com
+                    RSNRmuneemji@gmail.com
                   </span>
                 </div>
                 <div className="div">
                   <span className="d-flex align-items-center">
                     <IoCall className="text-white fs-5 " />
-                    +91 9992739924
+                    +91 9993217983
                   </span>
                 </div>
               </div>
@@ -35,7 +35,12 @@ const TopBar = () => {
                 <h6>Follow Us :</h6>
                 <div className="icon-box mx-2">
                   <span>
-                    <FaFacebookF />
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100089924814105"
+                      className="text-decoration-none text-white"
+                    >
+                      <FaFacebookF />
+                    </a>
                   </span>
                   <span>
                     <FaTwitter />
@@ -44,7 +49,12 @@ const TopBar = () => {
                     <FaLinkedin />
                   </span>
                   <span>
-                    <FaInstagram />
+                    <a
+                      href="https://www.instagram.com/rsnrmuneemji?igsh=NWVhMXdkMzhjbG8w"
+                      className="text-decoration-none text-white"
+                    >
+                      <FaInstagram />
+                    </a>
                   </span>
                 </div>
               </div>

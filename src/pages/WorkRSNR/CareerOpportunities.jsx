@@ -3,6 +3,7 @@ import GlobalHero from "../../components/GlobalComps/GlobalHero";
 import acc from "../../images/jobs.svg";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import JobApplicationForm from "../../components/JobApplicationForm";
 const CareerOpportunities = () => {
   return (
     <>
@@ -206,12 +207,18 @@ const CareerOpportunities = () => {
           </Row>
           <Row className="mb-5">
             <Col>
+              <JobApplicationForm />
+            </Col>
+          </Row>
+          <Row className="mb-5">
+            <Col>
               <p>
                 To learn more about current job openings and how to apply, visit
                 our careers page or contact us directly.
               </p>
             </Col>
           </Row>
+
           <Row className="mb-5">
             <Col className="d-flex justify-content-center">
               <Button variant="primary" size="lg">

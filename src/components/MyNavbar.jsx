@@ -10,6 +10,7 @@ import { useState } from "react";
 import WorkWithUs from "./MyDropdowns/WorkWithUs";
 import ServicesDropDown from "./MyDropdowns/ServicesDropDown";
 import BooksAndTaxesDropDown from "./MyDropdowns/BooksAndTaxesDropDown";
+import LoanDropDown from "./MyDropdowns/LoanDropDown";
 
 function MyNavbar() {
   const [show, setShow] = useState(false);
@@ -38,12 +39,13 @@ function MyNavbar() {
 
            <BooksAndTaxesDropDown/>
            <ServicesDropDown/>
-           <NavLink
+           {/* <NavLink
               to="/loan-rsnr"
               className="text-decoration-none text-dark nav-link"
             >
               Loan
-            </NavLink>
+            </NavLink> */}
+            <LoanDropDown/>
            <WorkWithUs/>
 
             <NavLink
