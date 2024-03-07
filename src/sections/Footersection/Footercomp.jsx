@@ -39,10 +39,10 @@ const Footercomp = () => {
           </Col>
           <Col lg={3} className="mb-3 text-white">
             <h5 className="mb-2">Contact Us</h5>
-            <p>123 Street Name</p>
-            <p>City, Country</p>
-            <p>Email: example@example.com</p>
-            <p>Phone: 0141 4072000</p>
+            <p>Sudama Nagar.</p>
+            {/* <p>City, Country</p> */}
+            <p>Email: RSNRmuneemji@gmail.com</p>
+            <p>Phone: 9993217983</p>
           </Col>
           <Col lg={3} className="mb-3 text-white text-left">
             <img src={logo} alt="" style={{ width: "180px" }} className="mb-3" />
