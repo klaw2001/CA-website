@@ -40,34 +40,77 @@ import BusinessDeeds from "./pages/Services/ChangeInBusiness/BusinessDeeds";
 import ChangeBusiness from "./pages/Services/ChangeInBusiness/ChangeBusiness";
 import CareerOpportunities from "./pages/WorkRSNR/CareerOpportunities";
 import LifeInsuranceSection from "./pages/WorkRSNR/LifeInsuranceSection";
+import Contact from "./pages/Contact";
+import ContactFormFloating from "./components/contentScroll/ContactFormFloating";
+import { useState } from "react";
+import { Button } from "react-bootstrap";
 function App() {
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
+  const toggleForm = () => {
+    setIsFormOpen(!isFormOpen);
+  };
+
   return (
     <>
       <Router>
         <TopBar />
         <MyNavbar />
+        <Button
+          className="position-fixed end-0"
+          onClick={toggleForm}
+          style={{ zIndex: "8888" }}
+        >
+          Enquire Now
+        </Button>
+        <ContactFormFloating isOpen={isFormOpen} toggleForm={toggleForm} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
 
           {/* Work With US  */}
 
-          <Route path="/career-opportunities" element={<CareerOpportunities/>}/>
-          <Route path="/student-life-insaurance" element={<LifeInsuranceSection/>}/>
+          <Route
+            path="/career-opportunities"
+            element={<CareerOpportunities />}
+          />
+          <Route
+            path="/student-life-insaurance"
+            element={<LifeInsuranceSection />}
+          />
           {/* Seperate Pages  */}
-          <Route path="/business-registration" element={<BusinessRegistrationPage/>}/>
+          <Route
+            path="/business-registration"
+            element={<BusinessRegistrationPage />}
+          />
 
           {/* Services  */}
           <Route path="/one-person-company" element={<OnePersonCompany />} />
-          <Route path="/private-limited-registration" element={<PrivateLimitedReg />} />
+          <Route
+            path="/private-limited-registration"
+            element={<PrivateLimitedReg />}
+          />
 
-          <Route path="/nidhi-company-registration" element={<NidhiCompanyReg />} />
-          <Route path="/sole-proprietorship" element={<SoleProprietorships />} />
+          <Route
+            path="/nidhi-company-registration"
+            element={<NidhiCompanyReg />}
+          />
+          <Route
+            path="/sole-proprietorship"
+            element={<SoleProprietorships />}
+          />
           <Route path="/partnership" element={<Partnership />} />
           <Route path="/ngo-registration" element={<NgoRegistration />} />
-          <Route path="/society-registration" element={<SocietyRegistration />} />
+          <Route
+            path="/society-registration"
+            element={<SocietyRegistration />}
+          />
           <Route path="/trust-registration" element={<TrustRegistration />} />
-          <Route path="/section-8-company-registration" element={<Section8Company />} />
+          <Route
+            path="/section-8-company-registration"
+            element={<Section8Company />}
+          />
 
           <Route
             path="/document-and-licenses"
@@ -78,20 +121,13 @@ function App() {
             path="/startup-india-registration"
             element={<StartupIndia />}
           />
-          <Route
-            path="/msme-registration"
-            element={<MSMERegistration />}
-          />
-          <Route
-            path="/section-80G-and-12A"
-            element={<Section12A />}
-          />
+          <Route path="/msme-registration" element={<MSMERegistration />} />
+          <Route path="/section-80G-and-12A" element={<Section12A />} />
 
           <Route
             path="/provident-fund-registration"
             element={<ProvidentFundRegistration />}
           />
-
 
           <Route
             path="/trademark-and-copywright"
@@ -105,15 +141,9 @@ function App() {
             path="/amendment-in-business-deeds"
             element={<BusinessDeeds />}
           />
-          <Route
-            path="/convert-your-business"
-            element={<ChangeBusiness />}
-          />
+          <Route path="/convert-your-business" element={<ChangeBusiness />} />
 
-          <Route
-            path="/compliances"
-            element={<Compliances />}
-          />
+          <Route path="/compliances" element={<Compliances />} />
 
           {/* Books And Taxes  */}
           <Route
@@ -122,7 +152,10 @@ function App() {
           />
           <Route path="/certification" element={<Certifications />} />
           <Route path="/auditing" element={<AuditingAndAssuarance />} />
-          <Route path="/income-tax-and-other-taxes" element={<IncomeTaxAdvisory />} />
+          <Route
+            path="/income-tax-and-other-taxes"
+            element={<IncomeTaxAdvisory />}
+          />
           <Route path="/income-tax-advisory" element={<TaxAdvisory />} />
           <Route path="/income-tax-return" element={<IncomeTaxReturn />} />
           <Route path="/tds-returns-and-fillings" element={<TDSreturns />} />
@@ -138,8 +171,8 @@ function App() {
           {/* Loan And Advances  */}
           <Route path="/loan-rsnr" element={<LoanRsnr />} />
         </Routes>
-        <Footercomp/>
-        <Footerbottom/>
+        <Footercomp />
+        <Footerbottom />
       </Router>
     </>
   );

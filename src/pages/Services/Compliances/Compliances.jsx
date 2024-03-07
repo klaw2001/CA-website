@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import GlobalHero from "../../../components/GlobalComps/GlobalHero";
 import startup from "../../../images/success.svg";
 import { Button, Card, Col, Container, ListGroup, Row } from "react-bootstrap";
@@ -18,6 +18,7 @@ import {
   Waypoints,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import ScrollToContent from "../../../components/contentScroll/ScrollToContent";
 const Compliances = () => {
   const foundationsOfBusinessDecisions = [
     {
@@ -172,11 +173,33 @@ const Compliances = () => {
     },
   ];
 
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
+
   return (
     <>
       <GlobalHero heading="Compliances" />
+      <button
+        onClick={toggleVisibility}
+        className="btn btn-primary position-absolute end-0 mb-4"
+      >
+        Toggle Content
+      </button>
 
-      <section className="py-5">
+      <ScrollToContent
+        pages={[
+          { title: "Annual MCA Compliance", href: "#annual-mca" },
+          { title: "Regular Compulsary Filings", href: "#regular-fillings" },
+          { title: "NGO Compliance", href: "#ngo-compliance" },
+          { title: "Section 8 Compliance", href: "#section-8" },
+        ]}
+        isVisible={isVisible}
+        toggleVisibility={toggleVisibility}
+      />
+      <section className="py-5" id="annual-mca">
         <Container>
           <h1 className="text-center my-4 fw-bold">
             Navigating Business Success: The Crucial Role of Accounting with
@@ -510,7 +533,7 @@ const Compliances = () => {
         </Container>
       </section>
 
-      <section className="py-5">
+      <section className="py-5" id="regular-fillings">
         <Container>
           <strong className="mb-3">
             Annual compliance requirements for a company may vary based on the
@@ -637,7 +660,7 @@ const Compliances = () => {
         </Container>
       </section>
 
-      <section className="py-5">
+      <section className="py-5" id="ngo-compliance">
         <Container>
           <h2>NGO Compliances: </h2>
           <p className="my-3">
@@ -670,7 +693,7 @@ const Compliances = () => {
         </Container>
       </section>
 
-      <section className="py-5">
+      <section className="py-5" id="section-8">
         <Container>
           <h1 className="text-center my-4 fw-bold">Section 8 Compliances:</h1>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">

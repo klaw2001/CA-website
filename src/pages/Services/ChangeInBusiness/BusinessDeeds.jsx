@@ -1,5 +1,5 @@
 import React from "react";
-import acc from "../../../images/private.svg";
+import acc from "../../../images/deeds.svg";
 import GlobalHero from "../../../components/GlobalComps/GlobalHero";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const BusinessDeeds = () => {
   return (
     <>
-      <GlobalHero heading="Amendment in Private Limited documents" />
+      <GlobalHero heading="Amendment in Business Deeds" />
       <section>
         <Container>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">

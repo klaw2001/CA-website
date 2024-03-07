@@ -6,6 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -217,10 +220,17 @@ h5{
   padding: 150px 0px;
   background-color: grey;
 }
+.form-closed {
+  right: -1005px;
+}
+.form-open {
+  right: 0px;
 
-
-
-
+}
+.floating-form{
+  z-index: 99999;
+  transition: 0.3s;
+}
 
 
 

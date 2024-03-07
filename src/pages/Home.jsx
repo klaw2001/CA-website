@@ -7,6 +7,7 @@ import Newsletter from "../sections/NewsletterSection/Newsletter";
 import Footercomp from "../sections/Footersection/Footercomp";
 import Footerbottom from "../sections/Footersection/Footerbottom";
 import GlobalComp1 from "../components/GlobalComps/GlobalComp1";
+import ContactFormFloating from "../components/contentScroll/ContactFormFloating";
 const Home = () => {
   return (
     <>
@@ -14,8 +15,6 @@ const Home = () => {
       <AboutUs/>
       <Services/>
       <Testimonial/>
-      <Newsletter/>
-     
     </>
   );
 };

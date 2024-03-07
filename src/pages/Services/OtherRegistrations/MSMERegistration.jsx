@@ -1,7 +1,6 @@
 import React from "react";
 import GlobalHero from "../../../components/GlobalComps/GlobalHero";
 import { Button, Card, Col, Container, ListGroup, Row, Table } from "react-bootstrap";
-import startup from "../../../images/startup.svg";
 import {
   ArrowDownUp,
   BadgeDollarSign,
@@ -18,7 +17,7 @@ import {
   UserRoundCheck,
   WalletCards,
 } from "lucide-react";
-
+import business from "../../../images/business.jpg"
 const MSMERegistration = () => {
   const msmeBenefits = [
     {
@@ -243,7 +242,7 @@ const MSMERegistration = () => {
               </h5>
             </Col>
             <Col>
-              <img src={startup} alt="" className="img-fluid" />
+              <img src={business} alt="" className="img-fluid" />
             </Col>
           </Row>
         </Container>

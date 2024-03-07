@@ -1,58 +1,81 @@
-import Carousel from "react-bootstrap/Carousel";
-import { Button, Container } from "react-bootstrap";
+import React from "react";
+import { Carousel, Button, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function MyCarousel() {
   return (
     <div>
       <Carousel>
+        {/* First Slide */}
         <Carousel.Item>
           <div className="carousel-text text-light">
             <Container>
               <div className="px-5">
-                <h3 className="text-white mb-3">Need Any Help</h3>
-                <h1 className="my-4">We Fight For Your Right</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                  beatae vero consequuntur neque quasi? Reiciendis
-                </p>
+                <h3 className="text-white mb-3">
+                  Say goodbye to accounting headaches!
+                </h3>
+                <h1 className="my-4">
+                  Our comprehensive services streamline your financial
+                  processes, making accounting a breeze in today's complex
+                  world.
+                </h1>
                 <Button className="themebg border-0 rounded-0 py-2 px-5">
-                  Get Started
+                  <Link
+                    to="/accounting-and-bookkeeping"
+                    className="text-decoration-none text-white"
+                  >
+                    Get Started
+                  </Link>
                 </Button>
               </div>
             </Container>
           </div>
         </Carousel.Item>
 
+        {/* Second Slide */}
         <Carousel.Item>
           <div className="carousel-text carousel-text-2 text-light">
             <Container>
               <div className="px-5">
-                <h3 className="text-white mb-3">Need Any Help</h3>
-                <h1 className="my-4">We Fight For Your Right</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                  beatae vero consequuntur neque quasi? Reiciendis
-                </p>
+                <h3 className="text-white mb-3">
+                  Seamless Tax Filing Solutions:
+                </h3>
+                <h1 className="my-4">
+                  Simplify GST and Income Tax returns effortlessly with our
+                  expert services!
+                </h1>
                 <Button className="themebg border-0 rounded-0 py-2 px-5">
-                  Get Started
+                  <Link
+                    to="/gst-returns"
+                    className="text-decoration-none text-white"
+                  >
+                    Get Started
+                  </Link>
                 </Button>
               </div>
             </Container>
           </div>
         </Carousel.Item>
 
+        {/* Third Slide */}
         <Carousel.Item>
           <div className="carousel-text carousel-text-3 text-light">
             <Container>
               <div className="px-5">
-                <h3 className="text-white mb-3">Need Any Help</h3>
-                <h1 className="my-4">We Fight For Your Right</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                  beatae vero consequuntur neque quasi? Reiciendis
-                </p>
-                <Button className="themebg border-0 rounded-0  py-2 px-5">
-                  Get Started
+                <h3 className="text-white mb-3">
+                  Unlock Opportunities with Confidence:
+                </h3>
+                <h1 className="my-4">
+                  Navigate licensing and secure loans seamlessly with our expert
+                  guidance by your side!
+                </h1>
+                <Button className="themebg border-0 rounded-0 py-2 px-5">
+                  <Link
+                    to="/loan-rsnr"
+                    className="text-decoration-none text-white"
+                  >
+                    Get Started
+                  </Link>
                 </Button>
               </div>
             </Container>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import sign from "../images/signa.jpg"
 const About = () => {
   return (
     <section className="py-5">
@@ -62,6 +62,15 @@ const About = () => {
           and a relentless pursuit of excellence. <br />
           <br />
         </p>
+        <div className="">
+          <div className="box">
+            <h1>Radhika Mandavgane</h1>
+            <p>Managing Director</p>
+            <img src={sign} alt="" className="img-fluid sign-box " width={150}/>
+          </div>
+          <div>
+          </div>
+        </div>
       </div>
     </section>
   );

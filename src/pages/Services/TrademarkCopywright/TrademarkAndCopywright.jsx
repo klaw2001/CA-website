@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import GlobalHero from "../../../components/GlobalComps/GlobalHero";
 import trade from "../../../images/trademark.svg";
 import {
@@ -24,6 +24,7 @@ import {
   Receipt,
   Subtitles,
 } from "lucide-react";
+import ScrollToContent from "../../../components/contentScroll/ScrollToContent";
 const TrademarkAndCopywright = () => {
   const advantages = [
     "Exclusive Usage Rights: Grants exclusive rights over the trademark, allowing legal action against unauthorized use.",
@@ -119,10 +120,26 @@ const TrademarkAndCopywright = () => {
     },
   ];
 
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
+
   return (
     <>
       <GlobalHero heading="Trademark And Copywright" />
-      <section>
+      <button onClick={toggleVisibility} className="btn btn-primary position-absolute end-0 mb-4">Toggle Content</button>
+
+      <ScrollToContent
+        pages={[
+          { title: "Trademark", href: "#trademark" },
+          { title: "Copywright", href: "#copywright" },
+        ]}
+        isVisible={isVisible}
+        toggleVisibility={toggleVisibility}
+      />
+      <section id="trademark">
         <Container>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">
             <Col className="order-1">
@@ -332,7 +349,7 @@ const TrademarkAndCopywright = () => {
         </Container>
       </section>
 
-      <section>
+      <section id="copywright">
         <Container>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">
             <Col className="">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import GlobalHero from "../../../components/GlobalComps/GlobalHero";
 import partner from "../../../images/partnership.svg";
 import law from "../../../images/law.svg";
@@ -10,6 +10,7 @@ import verify from "../../../images/verify.svg";
 import llp from "../../../images/llp.svg";
 import joint from "../../../images/joint.svg";
 import llp2 from "../../../images/llp-2.svg";
+import ScrollToContent from "../../../components/contentScroll/ScrollToContent";
 import { Card, Col, Container, ListGroup, Row, Table } from "react-bootstrap";
 import {
   Award,
@@ -269,10 +270,27 @@ const Partnership = () => {
     { industry: 'Fast Food', company: 'McDonald\'s China', details: 'Joint venture with CITIC Limited, CITIC Capital Holdings, and Carlyle Group for McDonald\'s operations in China.' },
     { industry: 'Technology', company: 'Samsung-IBM', details: 'Joint venture between Samsung and IBM to develop semiconductor technology.' },
   ];
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
   return (
     <>
       <GlobalHero heading="Partnership" />
-      <section className="py-5">
+      <button onClick={toggleVisibility} className="btn btn-primary position-absolute end-0 mb-4">Toggle Content</button>
+
+      <ScrollToContent
+        pages={[
+          { title: "Limited Liability Partnerships", href: "#llp" },
+          { title: "Partnership Firm", href: "#partnership" },
+          { title: "Joint Ventures", href: "#jointventure" },
+        ]}
+        isVisible={isVisible}
+        toggleVisibility={toggleVisibility}
+      />
+      <section className="py-5" id="partnership">
         <div className="container">
           <Row className="row-cols-1 row-cols-lg-2 align-items-center justify-content-center">
             <Col>
@@ -677,7 +695,7 @@ const Partnership = () => {
           </Row>
         </Container>
       </section>
-      <section>
+      <section id="llp">
         <Container>
           <h1 className="text-center my-4 fw-bold">
             Limited Liability Partnerships:{" "}
@@ -1154,7 +1172,7 @@ const Partnership = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section id="jointventure">
         <Container>
           <h1 className="text-center fw-bold">Joint Venture</h1>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">

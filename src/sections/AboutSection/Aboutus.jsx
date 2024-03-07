@@ -20,21 +20,21 @@ function AboutUs() {
             <Card.Body>
               <blockquote className="blockquote mb-0">
                 <p className="themetext2 fw-bold">ABOUT US</p>
-                <div style={{ width: "100px" }} >
-                  <hr className="border-5 themetext2 "/>
+                <div style={{ width: "100px" }}>
+                  <hr className="border-5 themetext2 " />
                 </div>
               </blockquote>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                "At RSNRMuneemji, we're more than just a financial services firm
+                – we're your trusted partner in navigating the intricate
+                landscape of accounting, registrations, licensing, tax return
+                filings, loans, and beyond. With a commitment to excellence and
+                a passion for empowering our clients, we streamline the
+                complexities of financial management, ensuring your business
+                thrives with confidence. From ensuring compliance to securing
+                the funding you need; our dedicated team of experts is here to
+                guide you every step of the way. Discover peace of mind and
+                unlock your business's full potential with RSNRMuneemji."
               </p>
             </Card.Body>
           </Card>

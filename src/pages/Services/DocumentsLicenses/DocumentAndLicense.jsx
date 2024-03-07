@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import GlobalHero from "../../../components/GlobalComps/GlobalHero";
 import { Card, Col, Container, ListGroup, Row, Table } from "react-bootstrap";
 import sign from "../../../images/sign.svg";
@@ -7,6 +7,7 @@ import docs from "../../../images/docs.svg";
 import gumasta from "../../../images/gumasta.svg";
 import food from "../../../images/food.svg";
 import { BookLock, FileKey2, Hash } from "lucide-react";
+import ScrollToContent from "../../../components/contentScroll/ScrollToContent";
 const DocumentAndLicense = () => {
   const digitalSignatureDetails = [
     {
@@ -28,11 +29,30 @@ const DocumentAndLicense = () => {
       icon: <Hash size={40} />, // Replace with the actual icon component or library you are using
     },
   ];
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
 
   return (
     <>
       <GlobalHero heading="Document And License" />
-      <section className="py-5">
+      <button onClick={toggleVisibility} className="btn btn-primary position-absolute end-0 mb-4">Toggle Content</button>
+
+      <ScrollToContent
+        pages={[
+          { title: "Digital Signatures", href: "#digital-signature-certificate" },
+          { title: "Gusmasta License", href: "#gumasta-license" },
+          { title: "Food License", href: "#food-license" },
+          { title: "TAN", href: "#tan" },
+          { title: "PAN", href: "#pan" },
+          { title: "Aadhar Card", href: "#aadhar-card" },
+        ]}
+        isVisible={isVisible}
+        toggleVisibility={toggleVisibility}
+      />
+      <section className="py-5" id="digital-signature-certificate">
         <Container>
           <h1 className="text-center fw-bold">
             Digital Signatures: A Comprehensive Guide
@@ -317,7 +337,7 @@ const DocumentAndLicense = () => {
         </Container>
       </section>
 
-      <section className="py-5">
+      <section className="py-5" id="gumasta-license">
         <Container>
           <h1 className="text-center fw-bold">Gumasta License</h1>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">
@@ -483,7 +503,7 @@ const DocumentAndLicense = () => {
         </Container>
       </section>
 
-      <section className="py-5">
+      <section className="py-5" id="food-license">
         <Container>
           <h1 className="text-center fw-bold">Food License</h1>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">
@@ -654,7 +674,7 @@ const DocumentAndLicense = () => {
         </Container>
       </section>
 
-      <section className="py-5">
+      <section className="py-5" id="tan">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -792,7 +812,7 @@ const DocumentAndLicense = () => {
         </Container>
       </section>
 
-      <section className="py-5">
+      <section className="py-5" id="pan">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -945,7 +965,7 @@ const DocumentAndLicense = () => {
           </Row>
         </Container>
       </section>
-      <section className="py-5">
+      <section className="py-5" id="aadhar-card">
         <Container className="mt-4">
           <Row>
             <Col>

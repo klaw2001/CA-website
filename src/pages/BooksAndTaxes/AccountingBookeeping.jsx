@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import GlobalHero from "../../components/GlobalComps/GlobalHero";
 import acc from "../../images/acc.svg";
 import nav from "../../images/navigate.svg";
@@ -14,6 +14,7 @@ import {
   Repeat2,
   UserCog,
 } from "lucide-react";
+import ScrollToContent from "../../components/contentScroll/ScrollToContent";
 const AccountingBookeeping = () => {
   const accountingBenefits = [
     {
@@ -83,11 +84,33 @@ const AccountingBookeeping = () => {
       icon: <Repeat2 size={40} />,
     },
   ];
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
 
   return (
     <>
       <GlobalHero heading="Accounting And Bookeeping" />
-      <section>
+      <button
+        onClick={toggleVisibility}
+        className="btn btn-primary position-absolute end-0 mb-4"
+      >
+        Toggle Content
+      </button>
+
+      <ScrollToContent
+        pages={[
+          { title: "Consult Your Books", href: "#consult-books" },
+          { title: "Manage Your Books", href: "#manage-books" },
+          { title: "Get Your Accounts in Order", href: "#accounts-order" },
+          { title: "Section 8 Compliance", href: "#section-8" },
+        ]}
+        isVisible={isVisible}
+        toggleVisibility={toggleVisibility}
+      />
+      <section id="consult-books">
         <Container>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">
             <Col className="order-1">
@@ -149,7 +172,7 @@ const AccountingBookeeping = () => {
           </Row>
         </Container>
       </section>
-      <section className="py-5">
+      <section className="py-5" id="manage-books">
         <Container>
           <h2>Foundations of Business Decisions: </h2>
 
@@ -193,7 +216,7 @@ const AccountingBookeeping = () => {
           </Row>
         </Container>
       </section>
-      <section className="py-5">
+      <section className="py-5" id="accounts-order">
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={8}>
@@ -322,7 +345,7 @@ const AccountingBookeeping = () => {
         </Container>
       </section>
 
-      <section className="py-5">
+      <section className="py-5" id="section-8">
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={8} className="text-center">

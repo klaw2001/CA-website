@@ -6,7 +6,7 @@ import acc from "../../images/gst.svg";
 const GSTresgistration = () => {
   return (
     <>
-      <GlobalHero heading="Gst And Indirect Tax" />
+      <GlobalHero heading="Gst Registration" />
       <section>
         <Container>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">
