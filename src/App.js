@@ -1,5 +1,5 @@
 import MyNavbar from "./components/MyNavbar";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import TopBar from "./components/TopBar";
 import AccountingBookeeping from "./pages/BooksAndTaxes/AccountingBookeeping";
@@ -46,7 +46,6 @@ import { useState } from "react";
 import { Button } from "react-bootstrap";
 function App() {
   const [isFormOpen, setIsFormOpen] = useState(false);
-
   const toggleForm = () => {
     setIsFormOpen(!isFormOpen);
   };
@@ -57,7 +56,7 @@ function App() {
         <TopBar />
         <MyNavbar />
         <Button
-          className="position-fixed end-0"
+          className="position-fixed end-0 new-btn"
           onClick={toggleForm}
           style={{ zIndex: "8888" , top:"40px" }}
         >

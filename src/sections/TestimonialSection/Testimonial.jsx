@@ -23,57 +23,40 @@ const Testimonial = () => {
             </Col>
           </Row>
           <Row className="d-flex justify-content-center align-items-center pt-5">
-            <Col  xs={12} sm={6} md={4}>
+            <Col  xs={12} sm={6} md={3} className="mb-4 mb-lg-0">
               <Card className="shadow">
                 <Card.Body className="text-center">
                    <img src={testimg1} className="cardimg mb-2"/>
-                  <Card.Title>Dan Garrison</Card.Title>
                   <Card.Text>
-                  " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare. "
-                  </Card.Text>
-                  <Card.Subtitle className="mb-2 text-muted">Head of Quality at Shopify</Card.Subtitle>
+                  Navigating the complexities of taxation was overwhelming until we found RSNRMuneemji. Their personalized approach and attention to detail ensured that our tax filings were accurate and compliant. We're grateful for their professionalism and support.                  </Card.Text>
+                  <Card.Subtitle className="mb-2 text-muted">Abroad Education Consultancy</Card.Subtitle>
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} sm={6} md={4}>
+            <Col xs={12} sm={6} md={3} className="mb-4 mb-lg-0">
               <Card className="shadow" >  
                 <Card.Body className="text-center">
                 <img src={testimg2} className="cardimg mb-2"/>
-                  <Card.Title>Rachael Collier</Card.Title>
                   <Card.Text>
-                  " Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi. "
+                  " RSNRMuneemji's commitment to staying updated with government schemes has been instrumental in our success. Their timely insights and guidance have enabled us to leverage opportunities and stay ahead of the curve. We highly recommend their services to anyone seeking financial clarity and compliance "
                   </Card.Text>
-                  <Card.Subtitle className="mb-2 text-muted">Product Designer at Webflow</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 text-muted">Anish Parihar</Card.Subtitle>
                 </Card.Body>
               </Card>
             </Col>
-          </Row>
-          <Row  className="d-flex justify-content-center align-items-center pt-5">
-          <Col xs={12} sm={6} md={4}>
+          <Col xs={12} sm={6} md={3} className="mb-4 mb-lg-0">
               <Card className="shadow">
                 <Card.Body className="text-center">
                 <img src={testimg3} className="cardimg mb-2"/>
-                  <Card.Title>Carmen Haley</Card.Title>
                   <Card.Text>
-                  " Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas. "
+                  " Choosing RSNRMuneemji for our accounting and taxation needs was a decision we'll never regret. Their team's professionalism, attention to detail, and personalized service have exceeded our expectations. We look forward to continuing our partnership for years to come. "
                   </Card.Text>
-                  <Card.Subtitle className="mb-2 text-muted">Product Designer at Webflow</Card.Subtitle>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} sm={6} md={4}>
-              <Card className="shadow">
-                <Card.Body className="text-center">
-                <img src={testimg4} className="cardimg mb-2"/>
-                  <Card.Title>Arlie Haynes</Card.Title>
-                  <Card.Text>
-                  " Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates sed quia consequuntur. "
-                  </Card.Text>
-                  <Card.Subtitle className="mb-2 text-muted">Software Developer at Wix</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 text-muted"> Satyam Traders</Card.Subtitle>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
+           
         </Container>
       </section>
     </>

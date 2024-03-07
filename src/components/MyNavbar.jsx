@@ -57,14 +57,14 @@ function MyNavbar() {
               </NavLink>
 
               <div className="ms-lg-5">
-                <Link to="/contact">
+                <a href="https://chat.whatsapp.com/J5QaO1gkGUVHPvijMi2J0V">
                   <button
                     className="app-btn text-light border-0 rounded"
                     onClick={handleClose}
                   >
                     Get Appoinment
                   </button>
-                </Link>
+                </a>
               </div>
             </Nav>
           </Offcanvas.Body>

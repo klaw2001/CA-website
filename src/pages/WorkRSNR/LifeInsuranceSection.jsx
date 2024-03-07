@@ -8,11 +8,7 @@ import stud4 from "../../images/studinc/stud4.jpeg"
 
 const LifeInsuranceSection = () => {
   const images = [
-    {
-      id: 1,
-      imageUrl: stud,
-      altText: "Image 1",
-    },
+    
     {
       id: 2,
       imageUrl: stud1,
@@ -38,7 +34,8 @@ const LifeInsuranceSection = () => {
     <>
     
     
-    <Container className="py-5">
+    <Container className="py-5 text-center">
+      <img src={stud} alt="" className="img-fluid mb-5" width={300}/>
       <h2 className="text-center mb-5">SUD Life Insurance</h2>
       <Row className="mb-5">
         <Col>
@@ -61,7 +58,6 @@ const LifeInsuranceSection = () => {
 
     <section>
          <Container className="py-5">
-      <h2 className="text-center mb-4">Image Gallery</h2>
       <Row>
         {images.map(image => (
           <Col key={image.id} xs={12} md={4} lg={3} className="mb-4">

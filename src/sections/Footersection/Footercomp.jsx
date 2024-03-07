@@ -1,65 +1,74 @@
-import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Navbar from "react-bootstrap/Navbar";
-import logo from "../../images/white-logo.png";
-import { Link } from "react-router-dom";
+  import React, { useEffect, useState } from "react";
+  import Container from "react-bootstrap/Container";
+  import Row from "react-bootstrap/Row";
+  import Col from "react-bootstrap/Col";
+  import Navbar from "react-bootstrap/Navbar";
+  import logo from "../../images/white-logo.png";
+  import { Link } from "react-router-dom";
+  import { links } from "../../utils/json";
 
-const Footercomp = () => {
-  return (
-    <Navbar expand="lg" className="pt-5 footerbg">
-      <Container>
-        <Row className="pt-3 w-100 d-flex justify-content-center align-items-center border-bottom border-white">
-          <Col lg={3} className=" text-white">
-            <h5>Quick Links</h5>
-            <ul className="list-unstyled mt-3 ">
-              {/* <li className="mb-2">
-                <a href="#" className="text-decoration-none text-white">
-                  Home
-                </a>
-              </li> */}
-              <li className="mb-2">
-                <Link to="/about" className="text-decoration-none text-white">
-                  About
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link to="/loan-rsnr" className="text-decoration-none text-white">
-                  Loan
-                </Link>
-              </li>
-             
-              <li className="mb-2">
-                <Link to="/contact" className="text-decoration-none text-white">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </Col>
-          <Col lg={3} className="mb-3 text-white">
-            <h5 className="mb-2">Contact Us</h5>
-            <p>Sudama Nagar.</p>
-            {/* <p>City, Country</p> */}
-            <p>Email: RSNRmuneemji@gmail.com</p>
-            <p>Phone: 9993217983</p>
-          </Col>
-          <Col lg={3} className="mb-3 text-white text-left">
-            <img src={logo} alt="" style={{ width: "180px" }} className="mb-3" />
-            <div>
-              <p>
-                At RSNRMuneemji, our mission is to be your one-stop destination
-                for all things accounting and taxation. We're committed to
-                ensuring that no one is left behind due to financial
-                complexities. With our comprehensive services under one roof, we
-                empower you to thrive.
-              </p>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </Navbar>
-  );
-};
+  const Footercomp = () => {
+    const [shuffledLinks, setShuffledLinks] = useState([]);
 
-export default Footercomp;
+    useEffect(() => {
+      // Fisher-Yates shuffle algorithm
+      const shuffleArray = (array) => {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      };
+
+      // Shuffle the links
+      const shuffled = shuffleArray(links).slice(0, 5);
+      console.log("Shuffled Links:", shuffled);
+      setShuffledLinks(shuffled);
+    }, [links]);
+    console.log(shuffledLinks)
+    return (
+      <Navbar expand="lg" className="pt-5 footerbg">
+        <Container>
+          <Row className="pt-3 w-100 d-flex justify-content-center align-items-center border-bottom border-white">
+        <h5>Quick Links</h5>
+        <Col lg={3} className=" text-white">
+          <h5>Quick Links</h5>
+          <ul className="list-unstyled mt-3">
+            {shuffledLinks
+              .flatMap(category => category.navLinks)
+              .slice(0, 5)
+              .map((link, index) => (
+                <li key={index} className="mb-2">
+                  <Link to={link.url} className="text-decoration-none text-white">
+                    {link.text}
+                  </Link>
+                </li>
+              ))}
+          </ul>
+        </Col>
+            <Col lg={3} className="mb-3 text-white">
+              <h5 className="mb-2">Contact Us</h5>
+              <p>Sudama Nagar.</p>
+              {/* <p>City, Country</p> */}
+              <p>Email: RSNRmuneemji@gmail.com</p>
+              <p>Phone: 9993217983</p>
+            </Col>
+            <Col lg={3} className="mb-3 text-white text-left">
+              <img src={logo} alt="" style={{ width: "180px" }} className="mb-3" />
+              <div>
+                <p>
+                  At RSNRMuneemji, our mission is to be your one-stop destination
+                  for all things accounting and taxation. We're committed to
+                  ensuring that no one is left behind due to financial
+                  complexities. With our comprehensive services under one roof, we
+                  empower you to thrive.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </Navbar>
+    );
+  };
+
+  export default Footercomp;

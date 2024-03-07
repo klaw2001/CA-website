@@ -46,7 +46,12 @@ const TopBar = () => {
                     <FaTwitter />
                   </span>
                   <span>
-                    <FaLinkedin />
+                    <a
+                      href="https://www.linkedin.com/company/99167514/admin/feed/posts/"
+                      className="text-decoration-none text-white"
+                    >
+                      <FaLinkedin />
+                    </a>
                   </span>
                   <span>
                     <a

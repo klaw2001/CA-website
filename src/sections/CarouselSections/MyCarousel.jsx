@@ -19,14 +19,12 @@ function MyCarousel() {
                   processes, making accounting a breeze in today's complex
                   world.
                 </h1>
-                <Button className="themebg border-0 rounded-0 py-2 px-5">
                   <Link
                     to="/accounting-and-bookkeeping"
-                    className="text-decoration-none text-white"
+                    className="themebg border-0 rounded-0 py-2 px-5 text-decoration-none text-white"
                   >
                     Get Started
                   </Link>
-                </Button>
               </div>
             </Container>
           </div>
@@ -44,14 +42,14 @@ function MyCarousel() {
                   Simplify GST and Income Tax returns effortlessly with our
                   expert services!
                 </h1>
-                <Button className="themebg border-0 rounded-0 py-2 px-5">
+                {/* <Button className="themebg border-0 rounded-0 py-2 px-5"> */}
                   <Link
                     to="/gst-returns"
-                    className="text-decoration-none text-white"
+                    className="themebg border-0 rounded-0 py-2 px-5 text-decoration-none text-white"
                   >
                     Get Started
                   </Link>
-                </Button>
+                {/* </Button> */}
               </div>
             </Container>
           </div>
@@ -69,14 +67,12 @@ function MyCarousel() {
                   Navigate licensing and secure loans seamlessly with our expert
                   guidance by your side!
                 </h1>
-                <Button className="themebg border-0 rounded-0 py-2 px-5">
                   <Link
                     to="/loan-rsnr"
-                    className="text-decoration-none text-white"
+                    className="themebg border-0 rounded-0 py-2 px-5 text-decoration-none text-white"
                   >
                     Get Started
                   </Link>
-                </Button>
               </div>
             </Container>
           </div>

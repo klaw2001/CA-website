@@ -11,7 +11,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-1 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-1 </h2>
               <p>
                 <strong>
                   FORM GSTR1- Details of outward supplies of Goods or Services
@@ -83,7 +83,7 @@ const GSTreturns = () => {
       <Container className="py-5">
         <Row className="justify-content-center">
           <Col md={10}>
-            <h2 className="mb-4 text-center">Form GSTR-1A Explanation</h2>
+            <h2 className="mb-4 text-center">Form GSTR-1A </h2>
             <p>
               <strong>FORM GSTR-1A DETAILS OF AUTO DRAFTED SUPPLIES</strong>
             </p>
@@ -164,7 +164,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-2 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-2 </h2>
               <p>
                 <strong>
                   FORM GSTR-2 DETAILS OF INWARD SUPPLIES OF GOODS OR SERVICES
@@ -252,7 +252,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-2A Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-2A </h2>
               <p>
                 <strong>FORM GSTR-2A DETAILS OF AUTODRAFTED SUPPLIES</strong>
               </p>
@@ -332,7 +332,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-2B Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-2B </h2>
               <p>
                 <strong>FORM GSTR-2B AUTO-DRAFTED ITC STATEMENT</strong>
               </p>
@@ -407,7 +407,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-3 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-3 </h2>
               <p>
                 <strong>FORM GSTR-3 MONTHLY RETURN</strong>
               </p>
@@ -496,7 +496,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-3A Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-3A </h2>
               <p>
                 <strong>
                   FORM GSTR-3A NOTICE OF RETURN DEFAULTER U/S 46 FOR NOT FILING
@@ -596,7 +596,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-3B Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-3B </h2>
               <p>
                 <strong>
                   FORM GSTR-3B DETAILS OF OUTWARD SUPPLIES AND INWARD SUPPLIES
@@ -684,7 +684,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-4 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-4 </h2>
               <p>
                 <strong>
                   FORM GSTR-4 RETURN FOR FINANCIAL YEAR OF REGISTERED PERSON WHO
@@ -778,7 +778,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-4A Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-4A </h2>
               <p>
                 <strong>
                   FORM GSTR-4A AUTO DRAFTED DETAILS FOR REGISTERED PERSON OPTING
@@ -871,7 +871,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-5 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-5 </h2>
               <p>
                 <strong>
                   FORM GSTR-5 RETURN OF NON-RESIDENT TAXABLE PERSON
@@ -984,7 +984,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-5A Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-5A </h2>
               <p>
                 <strong>
                   FORM GSTR-5A DETAILS OF SUPPLIES OF ONLINE INFORMATION AND
@@ -1100,7 +1100,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-6 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-6 </h2>
               <p>
                 <strong>FORM GSTR-6 RETURN OF INPUT SERVICE DISTRIBUTOR</strong>
               </p>
@@ -1214,7 +1214,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-6A Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-6A </h2>
               <p>
                 <strong>
                   FORM GSTR-6A DETAILS OF SUPPLIES AUTO-DRAFTED FORM
@@ -1336,7 +1336,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-7 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-7 </h2>
               <p>
                 <strong>FORM GSTR-7 RETURN FOR TAX DEDUCTED AT SOURCE</strong>
               </p>
@@ -1462,7 +1462,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-7A Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-7A </h2>
               <p>
                 <strong>
                   FORM GSTR-7A TAX DEDUCTION AT SOURCE CERTIFICATE
@@ -1573,7 +1573,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-8 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-8 </h2>
               <p>
                 <strong>
                   FORM GSTR-8 STATEMENT FOR TAX COLLECTION AT SOURCE
@@ -1695,7 +1695,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-9 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-9 </h2>
               <p>
                 <strong>FORM GSTR-9 ANNUAL RETURN</strong>
               </p>
@@ -1839,7 +1839,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-9A Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-9A </h2>
               <p>
                 <strong>
                   FORM GSTR-9A ANNUAL RETURN (FOR COMPOSITION TAXPAYER)
@@ -1971,7 +1971,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-9C Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-9C </h2>
               <p>
                 <strong>FORM GSTR-9C RECONCILIATION STATEMENT</strong>
               </p>
@@ -2102,7 +2102,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-10 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-10 </h2>
               <p>
                 <strong>FORM GSTR-10 FINAL RETURN</strong>
               </p>
@@ -2238,7 +2238,7 @@ const GSTreturns = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GSTR-11 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GSTR-11 </h2>
               <p>
                 <strong>
                   FORM GSTR-11 STATEMENT OF INWARD SUPPLIES BY PERSON HAVING
