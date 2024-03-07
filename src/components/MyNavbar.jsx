@@ -36,9 +36,15 @@ function MyNavbar() {
               Home
             </NavLink>
 
-           <WorkWithUs/>
-           <ServicesDropDown/>
            <BooksAndTaxesDropDown/>
+           <ServicesDropDown/>
+           <NavLink
+              to="/loan-rsnr"
+              className="text-decoration-none text-dark nav-link"
+            >
+              Loan
+            </NavLink>
+           <WorkWithUs/>
 
             <NavLink
               to="/about"
@@ -46,14 +52,9 @@ function MyNavbar() {
             >
               About
             </NavLink>
-            <NavLink
-              to="/loan-rsnr"
-              className="text-decoration-none text-dark nav-link"
-            >
-              Loan
-            </NavLink>
+          
             <div className="ms-lg-5">
-              <Link>
+              <Link to="/contact">
                 <button className="app-btn text-light border-0 rounded">
                   Get Appoinment
                 </button>
