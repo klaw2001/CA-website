@@ -33,7 +33,7 @@ const TopBar = () => {
             </Col>
             <Col className="text-light pt-2 pt-lg-0">
               <div className="icon-text d-flex align-items-center justify-content-lg-end justify-content-center">
-                <h6>Follow Us :</h6>
+                <h6 className="mb-0">Follow Us :</h6>
                 <div className="icon-box mx-2">
                   <span>
                     <a
