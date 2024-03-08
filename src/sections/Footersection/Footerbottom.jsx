@@ -12,7 +12,7 @@ const Footerbottom = () => {
           <Row className="w-100">
             <Col className="text-white text-center ">
               <p>
-                © 2021 Copyright RSNR Muneemji All rights reserved. Designed And
+                © 2021 Copyright RSNRMuneemji All rights reserved. Designed And
                 Developed By{" "}
                 <a
                   href="https://reduxsolutions.com"
