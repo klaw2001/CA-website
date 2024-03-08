@@ -44,6 +44,7 @@ import Contact from "./pages/Contact";
 import ContactFormFloating from "./components/contentScroll/ContactFormFloating";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
+import Klaw from "./components/Klaw";
 function App() {
   const [isFormOpen, setIsFormOpen] = useState(false);
   const toggleForm = () => {
@@ -154,6 +155,10 @@ function App() {
           <Route
             path="/income-tax-and-other-taxes"
             element={<IncomeTaxAdvisory />}
+          />
+          <Route
+            path="/klaw"
+            element={<Klaw />}
           />
           <Route path="/income-tax-advisory" element={<TaxAdvisory />} />
           <Route path="/income-tax-return" element={<IncomeTaxReturn />} />
