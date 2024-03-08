@@ -202,6 +202,9 @@ h5{
 .floating-form{
   width: 75% !important;
 }
+.top-bar-inner.d-flex.text-light.justify-content-center.justify-content-lg-start {
+  font-size: 15px;
+}
 } 
 
 
