@@ -8,7 +8,7 @@ const IncomeTaxReturn = () => {
   return (
     <>
       <GlobalHero heading="Income Tax Return" />
-      <section>
+      <section className="py-5">
         <Container>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">
             <Col className="order-1">
@@ -27,7 +27,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -131,7 +131,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -221,7 +221,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -316,7 +316,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -411,7 +411,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -513,7 +513,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -616,7 +616,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -718,7 +718,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -806,7 +806,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -895,7 +895,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -976,7 +976,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -1062,7 +1062,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -1163,7 +1163,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -1272,7 +1272,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -1393,7 +1393,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -1533,7 +1533,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -1672,7 +1672,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -1845,7 +1845,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>
@@ -2019,7 +2019,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="py-5">
         <Container className="mt-4">
           <Row>
             <Col>

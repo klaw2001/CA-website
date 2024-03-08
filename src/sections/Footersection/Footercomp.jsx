@@ -22,15 +22,12 @@
 
       // Shuffle the links
       const shuffled = shuffleArray(links).slice(0, 5);
-      console.log("Shuffled Links:", shuffled);
       setShuffledLinks(shuffled);
     }, [links]);
-    console.log(shuffledLinks)
     return (
       <Navbar expand="lg" className="pt-5 footerbg">
         <Container>
           <Row className="pt-3 w-100 d-flex justify-content-center align-items-center border-bottom border-white">
-        <h5>Quick Links</h5>
         <Col lg={3} className=" text-white">
           <h5>Quick Links</h5>
           <ul className="list-unstyled mt-3">

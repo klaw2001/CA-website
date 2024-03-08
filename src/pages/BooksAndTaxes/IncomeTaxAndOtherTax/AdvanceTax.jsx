@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const AdvanceTax = () => {
   return (
     <>
-      <GlobalHero heading="Income Tax Advisory" />
+      <GlobalHero heading="Advance Tax" />
       <section>
         <Container>
           <Row className="align-items-center row-cols-1 row-cols-lg-2 justify-content-center">

@@ -105,7 +105,7 @@ const AccountingBookeeping = () => {
           { title: "Consult Your Books", href: "#consult-books" },
           { title: "Manage Your Books", href: "#manage-books" },
           { title: "Get Your Accounts in Order", href: "#accounts-order" },
-          { title: "Section 8 Compliance", href: "#section-8" },
+          { title: "Payroll Management", href: "#section-8" },
         ]}
         isVisible={isVisible}
         toggleVisibility={toggleVisibility}

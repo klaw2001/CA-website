@@ -3,10 +3,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import testimg1 from "../assests/testimonial1.jpg"
-import testimg2 from "../assests/testimonial2.jpg"
-import testimg3 from "../assests/testimonial3.jpg"
-import testimg4 from "../assests/testimonial4.jpg"
+import testimg1 from "../../images/myimg.jpg"
+
 
 
 const Testimonial = () => {
@@ -36,7 +34,7 @@ const Testimonial = () => {
             <Col xs={12} sm={6} md={3} className="mb-4 mb-lg-0">
               <Card className="shadow" >  
                 <Card.Body className="text-center">
-                <img src={testimg2} className="cardimg mb-2"/>
+                <img src={testimg1} className="cardimg mb-2"/>
                   <Card.Text>
                   " RSNRMuneemji's commitment to staying updated with government schemes has been instrumental in our success. Their timely insights and guidance have enabled us to leverage opportunities and stay ahead of the curve. We highly recommend their services to anyone seeking financial clarity and compliance "
                   </Card.Text>
@@ -47,7 +45,7 @@ const Testimonial = () => {
           <Col xs={12} sm={6} md={3} className="mb-4 mb-lg-0">
               <Card className="shadow">
                 <Card.Body className="text-center">
-                <img src={testimg3} className="cardimg mb-2"/>
+                <img src={testimg1} className="cardimg mb-2"/>
                   <Card.Text>
                   " Choosing RSNRMuneemji for our accounting and taxation needs was a decision we'll never regret. Their team's professionalism, attention to detail, and personalized service have exceeded our expectations. We look forward to continuing our partnership for years to come. "
                   </Card.Text>
