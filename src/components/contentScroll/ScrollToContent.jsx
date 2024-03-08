@@ -6,15 +6,15 @@ const ScrollToContent = ({ pages , isVisible , toggleVisibility}) => {
     <>
       <section className={`position-absolute mt-5 end-0 ${isVisible ? 'd-block' : 'd-none'}`}>
         <Container>
-          <Card>
-            <h6>Contents in this Page</h6>
-            <ul>
+          <Card className="border-0 p-2">
+            <h6>Contents in this Page :</h6>
+            <ol className="p-0">
               {pages.map((page, index) => (
                 <li key={index}>
                   <a href={page.href} className="text-dark">{page.title}</a>
                 </li>
               ))}
-            </ul>
+            </ol>
           </Card>
         </Container>
       </section>
