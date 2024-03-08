@@ -18,7 +18,7 @@ const Section12A = () => {
         {
           title: "Expert Guidance",
           description:
-            "Our seasoned professionals understand the nuances of MSME registration. Benefit from their expertise as they guide you through the entire process.",
+            "Our seasoned professionals understand the nuances of Section 80G And Section 12A registration. Benefit from their expertise as they guide you through the entire process.",
         },
         {
           title: "Personalized Support",
@@ -28,17 +28,17 @@ const Section12A = () => {
         {
           title: "Timely Processing",
           description:
-            "Time is money, and we value yours. With RSNRMUNEEMJI, expect prompt and efficient processing of your MSME registration, saving you valuable time and effort.",
+            "Time is money, and we value yours. With RSNRMUNEEMJI, expect prompt and efficient processing of your Section 80G And Section 12A registration, saving you valuable time and effort.",
         },
         {
           title: "Accuracy and Compliance",
           description:
-            "MSME registration involves critical details. Rely on us to ensure accuracy and compliance with all regulatory requirements, minimizing the risk of errors and delays.",
+            "Section 80G And Section 12A registration involves critical details. Rely on us to ensure accuracy and compliance with all regulatory requirements, minimizing the risk of errors and delays.",
         },
         {
           title: "Transparent Communication",
           description:
-            "Stay informed at every step! We prioritize transparent communication, keeping you updated on the progress of your MSME registration application.",
+            "Stay informed at every step! We prioritize transparent communication, keeping you updated on the progress of your Section 80G And Section 12A registration application.",
         },
         {
           title: "Customized Solutions",
@@ -51,7 +51,7 @@ const Section12A = () => {
         {
           title: "Application Preparation",
           description:
-            "We handle the meticulous preparation of your MSME registration application, ensuring all required details are accurately presented.",
+            "We handle the meticulous preparation of your Section 80G And Section 12A registration application, ensuring all required details are accurately presented.",
         },
         {
           title: "Documentation Support",
@@ -61,7 +61,7 @@ const Section12A = () => {
         {
           title: "Online Submission",
           description:
-            "Let us take care of the technicalities. We handle the online submission of your MSME registration application, ensuring adherence to the digital registration process.",
+            "Let us take care of the technicalities. We handle the online submission of your Section 80G And Section 12A registration application, ensuring adherence to the digital registration process.",
         },
         {
           title: "Verification Assistance",

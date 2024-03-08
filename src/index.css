@@ -212,7 +212,9 @@ h5{
 
 
 
-
+.others-dropdown .dropdown-toggle .dropdown-menu{
+  left: 0;
+}
 
 
 
@@ -221,7 +223,7 @@ h5{
 
 /* services dropdown  */
 .dropdown-menu{
-  --bs-dropdown-min-width: 46rem !important;
+  --bs-dropdown-min-width: 80rem !important;
 }
 .dropdown-menu[data-bs-popper] {
   left: -274px !important;
