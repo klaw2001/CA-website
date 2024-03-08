@@ -64,7 +64,7 @@ const About = () => {
         </p>
         <div className="">
           <div className="box">
-            <h1>Radhika Mandavgane</h1>
+            <h3>Radhika Mandavgane</h3>
             <p>Managing Director</p>
             <img src={sign} alt="" className="img-fluid sign-box " width={150}/>
           </div>
