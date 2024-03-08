@@ -56,7 +56,7 @@
               <p>Email: RSNRmuneemji@gmail.com</p>
               <p>Phone: 9993217983</p>
               <div className="icon-text d-flex align-items-center ">
-                <div className="icon-box mx-2">
+                <div className="icon-box">
                   <span>
                     <a
                       href="https://www.facebook.com/profile.php?id=100089924814105"

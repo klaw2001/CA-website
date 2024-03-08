@@ -94,6 +94,8 @@ h5{
 
 .icon-box span{
   padding: 0px 5px;
+  font-size: 20px;
+
 }
 
 .aboutcard{
@@ -223,7 +225,7 @@ h5{
 
 /* services dropdown  */
 .dropdown-menu{
-  --bs-dropdown-min-width: 80rem !important;
+  --bs-dropdown-min-width: 53rem !important;
 }
 .dropdown-menu[data-bs-popper] {
   left: -274px !important;
