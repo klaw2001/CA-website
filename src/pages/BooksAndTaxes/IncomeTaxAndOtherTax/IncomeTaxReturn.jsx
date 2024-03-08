@@ -2205,7 +2205,7 @@ const IncomeTaxReturn = () => {
         </Container>
       </section>
 
-      <section className="py-5 bg-dark text-light">
+      <section className="py-5 bg-light text-dark">
         <Container className="text-center">
           <h2 className="mb-4">
             Simplify Your Tax Filing Process with RSNRMuneemji

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { Col, NavDropdown, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { links } from "../../utils/json";

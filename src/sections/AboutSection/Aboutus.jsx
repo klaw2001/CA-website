@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import about from "../assests/about.jpg";
-import GlobalComp1 from "../../components/GlobalComps/GlobalComp1";
 
 function AboutUs() {
   return (

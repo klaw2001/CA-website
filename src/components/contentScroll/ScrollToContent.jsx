@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
 
-const ScrollToContent = ({ pages , isVisible , toggleVisibility}) => {
+const ScrollToContent = ({ pages , isVisible }) => {
   return (
     <>
       <section className={`position-absolute mt-5 end-0 ${isVisible ? 'd-block' : 'd-none'}`}>

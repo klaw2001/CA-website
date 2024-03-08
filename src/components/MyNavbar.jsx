@@ -1,13 +1,11 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../images/rsnr Logo 2.png";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import WorkWithUs from "./MyDropdowns/WorkWithUs";
 import ServicesDropDown from "./MyDropdowns/ServicesDropDown";
 import BooksAndTaxesDropDown from "./MyDropdowns/BooksAndTaxesDropDown";
 import LoanDropDown from "./MyDropdowns/LoanDropDown";

@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import {
   FaFacebookF,
-  FaTwitter,
   FaLinkedin,
   FaInstagram,
   FaWhatsapp,

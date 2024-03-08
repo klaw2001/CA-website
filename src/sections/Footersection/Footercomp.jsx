@@ -8,7 +8,6 @@
   import { links } from "../../utils/json";
   import {
     FaFacebookF,
-    FaTwitter,
     FaLinkedin,
     FaInstagram,
     FaWhatsapp,
