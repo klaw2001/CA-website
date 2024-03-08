@@ -540,7 +540,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-03 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-03 </h2>
               <p>
                 <strong>
                   FORM GST REG-03 NOTICE FOR SEEKING ADDITIONAL
@@ -672,7 +672,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-04 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-04 </h2>
               <p>
                 <strong>
                   FORM GST REG-04 CLARIFICATION/ADDITIONAL INFORMATION/DOCUMENT
@@ -801,7 +801,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-05 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-05 </h2>
               <p>
                 <strong>
                   FORM GST REG-05 ORDER OF REJECTION OF APPLICATION FOR
@@ -940,7 +940,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-06 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-06 </h2>
               <p>
                 <strong>FORM GST REG-06 REGISTRATION CERTIFICATE</strong>
               </p>
@@ -1052,7 +1052,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-07 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-07 </h2>
               <p>
                 <strong>
                   FORM GST REG-07 APPLICATION FOR REGISTRATION AS TAX DEDUCTOR
@@ -1167,7 +1167,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-08 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-08 </h2>
               <p>
                 <strong>
                   FORM GST REG-08 ORDER OF CANCELLATION OF REGISTRATION AS TAX
@@ -1284,7 +1284,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-09 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-09 </h2>
               <p>
                 <strong>
                   FORM GST REG-09 APPLICATION FOR REGISTRATION OF NON-RESIDENT
@@ -1402,7 +1402,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-10 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-10 </h2>
               <p>
                 <strong>
                   FORM GST REG-10 APPLICATION FOR REGISTRATION OF PERSON
@@ -1523,7 +1523,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-11 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-11 </h2>
               <p>
                 <strong>
                   FORM GST REG-11 APPLICATION FOR EXTENSION OF REGISTRATION
@@ -1640,7 +1640,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-12 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-12 </h2>
               <p>
                 <strong>
                   FORM GST REG-12 ORDER OF GRANT OF TEMPORARY REGISTRATION/ SUO
@@ -1746,7 +1746,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-13 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-13 </h2>
               <p>
                 <strong>
                   FORM GST REG-13 APPLICATION/ FORM FOR GRANT OF UNIQUE IDENTITY
@@ -1863,7 +1863,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-14 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-14 </h2>
               <p>
                 <strong>
                   FORM GST REG-14 APPLICATION FOR AMENDMENT IN REGISTRATION
@@ -1981,7 +1981,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-15 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-15 </h2>
               <p>
                 <strong>FORM GST REG-15 ORDER OF AMENDMENT</strong>
               </p>
@@ -2076,7 +2076,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-16 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-16 </h2>
               <p>
                 <strong>
                   FORM GST REG-16 APPLICATION FOR CANCELLATION OF REGISTRATION
@@ -2190,7 +2190,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-17 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-17 </h2>
               <p>
                 <strong>
                   FORM GST REG-17 SHOW CAUSE NOTICE FOR CANCELLATION OF
@@ -2298,7 +2298,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-18 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-18 </h2>
               <p>
                 <strong>
                   FORM GST REG-18 REPLY TO SHOW CAUSE NOTICE ISSUED FOR
@@ -2399,7 +2399,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-19 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-19 </h2>
               <p>
                 <strong>
                   FORM GST REG-19 ORDER FOR CANCELLATION OF REGISTRATION
@@ -2484,7 +2484,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-20 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-20 </h2>
               <p>
                 <strong>
                   FORM GST REG-20 ORDER FOR DROPPING THE PROCEEDINGS FOR
@@ -2558,7 +2558,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-21 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-21 </h2>
               <p>
                 <strong>
                   FORM GST REG-21 APPLICATION FOR REVOCATION OF CANCELLATION OF
@@ -2663,7 +2663,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-22 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-22 </h2>
               <p>
                 <strong>
                   Form GST REG-22 ORDER FOR REVOCATION OF CANCELLATION OF
@@ -2736,7 +2736,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-23 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-23 </h2>
               <p>
                 <strong>
                   Form GST REG-23 SHOW CAUSE NOTICE FOR REJECTION OF APPLICATION
@@ -2815,7 +2815,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-24 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-24 </h2>
               <p>
                 <strong>
                   Form GST REG-24 REPLY TO THE NOTICE FOR REJECTION OF
@@ -2907,7 +2907,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-25 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-25 </h2>
               <p>
                 <strong>
                   Form GST REG-25 CERTIFICATE OF PROVISIONAL REGISTRATION
@@ -3004,7 +3004,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-26 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-26 </h2>
               <p>
                 <strong>
                   Form GST REG-26 APPLICATION FOR ENROLMENT OF EXISTING TAXPAYER
@@ -3110,7 +3110,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-27 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-27 </h2>
               <p>
                 <strong>
                   Form GST REG-27 SHOW CAUSE NOTICE FOR CANCELLATION OF
@@ -3189,7 +3189,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-28 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-28 </h2>
               <p>
                 <strong>
                   Form GST REG-28 ORDER FOR CANCELLATION OF PROVISIONAL
@@ -3274,7 +3274,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-29 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-29 </h2>
               <p>
                 <strong>
                   Form GST REG-29 APPLICATION FOR CANCELLATION OF REGISTRATION
@@ -3378,7 +3378,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-30 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-30 </h2>
               <p>
                 <strong>Form GST REG-30 FORM OF FIELD VISIT REPORT</strong>
               </p>
@@ -3468,7 +3468,7 @@ const GSTresgistration = () => {
         <Container className="py-5">
           <Row className="justify-content-center">
             <Col md={10}>
-              <h2 className="mb-4 text-center">Form GST REG-31 Explanation</h2>
+              <h2 className="mb-4 text-center">Form GST REG-31 </h2>
               <p>
                 <strong>
                   Form GST REG-31 INTIMATION OF SUSPENSION AND NOTICE FOR
