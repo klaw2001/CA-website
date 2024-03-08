@@ -27,7 +27,7 @@ const JobApplicationForm = () => {
   };
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form action="https://formsubmit.co/rsnrmuneemji@gmail.com" method="POST">
       <Form.Group controlId="fullName">
         <Form.Label>Full Name</Form.Label>
         <Form.Control

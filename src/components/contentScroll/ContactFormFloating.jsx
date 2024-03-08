@@ -31,7 +31,7 @@ const ContactFormFloating = ({ isOpen}) => {
       <section className={`position-fixed floating-form mt-5 bg-white rounded p-3 ${isOpen ? 'form-open' : 'form-closed'}`}>
         <Container>
             <h2 className="mb-3">Contact Now</h2>
-          <Form noValidate validated={validated} onSubmit={handleSubmit}>
+          <Form noValidate validated={validated} action="https://formsubmit.co/rsnrmuneemji@gmail.com" method="POST">
             <Form.Group className="mb-3" controlId="formFirstName">
               <Form.Label>First Name</Form.Label>
               <Form.Control

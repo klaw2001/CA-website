@@ -24,7 +24,7 @@ const Newsletter = () => {
         <Col>
           <div>
             <div class="contact-form-wrapper d-flex">
-              <form action="#" class="contact-form text-start">
+              <form action="https://formsubmit.co/rsnrmuneemji@gmail.com" method="POST" class="contact-form text-start">
                 <p class="description">
                   Feel free to contact us if you need any assistance, any help
                   or another question.
