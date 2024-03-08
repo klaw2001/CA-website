@@ -53,8 +53,8 @@
               <h5 className="mb-4">Contact Us</h5>
               <p>Sudama Nagar.</p>
               {/* <p>City, Country</p> */}
-              <p>Email: RSNRmuneemji@gmail.com</p>
-              <p>Phone: 9993217983</p>
+              <p>Email: rsnrmuneemji@gmail.com</p>
+              <p>Phone: +91 9993217983</p>
               <div className="icon-text d-flex align-items-center ">
                 <div className="icon-box">
                   <span>
