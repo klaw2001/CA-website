@@ -97,7 +97,7 @@ const ServicesDropDown = ({handleClose}) => {
       <NavDropdown
         title="Services"
         id="basic-nav-dropdown"
-        className="w-100"
+        className=""
         // show={isDropdownOpen}
         // onMouseEnter={() => setIsDropdownOpen(true)}
         // onMouseLeave={() => setIsDropdownOpen(false)}

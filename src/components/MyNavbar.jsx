@@ -21,8 +21,11 @@ function MyNavbar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand to="home">
+        <Navbar.Brand to="/">
+          <Link to="/">
+          
           <img src={logo} alt="" width={170} />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle onClick={handleShow} />
         <Offcanvas
@@ -34,20 +37,25 @@ function MyNavbar() {
           <Offcanvas.Header closeButton></Offcanvas.Header>
           <Offcanvas.Body className="">
             <Nav className="m-auto nav-elements text-dark d-lg-flex align-items-lg-center">
-              <NavLink
+              {/* <NavLink
                 onClick={handleClose}
                 to="/"
                 className="page-active text-decoration-none nav-link"
               >
                 Home
-              </NavLink>
+              </NavLink> */}
 
               <BooksAndTaxesDropDown handleClose={handleClose} />
               <ServicesDropDown handleClose={handleClose} />
-
               <LoanDropDown handleClose={handleClose} />
-              <WorkWithUs handleClose={handleClose} />
 
+              <NavLink
+                onClick={handleClose}
+                to="/career-opportunities"
+                className="text-decoration-none text-dark nav-link"
+              >
+                Career Opportunities
+              </NavLink>
               <NavLink
                 onClick={handleClose}
                 to="/about"
@@ -57,14 +65,14 @@ function MyNavbar() {
               </NavLink>
 
               <div className="ms-lg-5">
-                <a href="https://chat.whatsapp.com/J5QaO1gkGUVHPvijMi2J0V">
+                <Link to="/contact">
                   <button
                     className="app-btn text-light border-0 rounded"
                     onClick={handleClose}
                   >
                     Get Appoinment
                   </button>
-                </a>
+                </Link>
               </div>
             </Nav>
           </Offcanvas.Body>

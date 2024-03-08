@@ -6,7 +6,13 @@
   import logo from "../../images/white-logo.png";
   import { Link } from "react-router-dom";
   import { links } from "../../utils/json";
-
+  import {
+    FaFacebookF,
+    FaTwitter,
+    FaLinkedin,
+    FaInstagram,
+    FaWhatsapp,
+  } from "react-icons/fa6";
   const Footercomp = () => {
     const [shuffledLinks, setShuffledLinks] = useState([]);
 
@@ -44,11 +50,46 @@
           </ul>
         </Col>
             <Col lg={3} className="mb-3 text-white">
-              <h5 className="mb-2">Contact Us</h5>
+              <h5 className="mb-4">Contact Us</h5>
               <p>Sudama Nagar.</p>
               {/* <p>City, Country</p> */}
               <p>Email: RSNRmuneemji@gmail.com</p>
               <p>Phone: 9993217983</p>
+              <div className="icon-text d-flex align-items-center ">
+                <div className="icon-box mx-2">
+                  <span>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100089924814105"
+                      className="text-decoration-none text-white"
+                    >
+                      <FaFacebookF />
+                    </a>
+                  </span>
+                  <span>
+                  <a
+                      href="https://chat.whatsapp.com/J5QaO1gkGUVHPvijMi2J0V"
+                      className="text-decoration-none text-white"
+                    >
+                    <FaWhatsapp /></a>
+                  </span>
+                  <span>
+                    <a
+                      href="https://www.linkedin.com/company/99167514/admin/feed/posts/"
+                      className="text-decoration-none text-white"
+                    >
+                      <FaLinkedin />
+                    </a>
+                  </span>
+                  <span>
+                    <a
+                      href="https://www.instagram.com/rsnrmuneemji?igsh=NWVhMXdkMzhjbG8w"
+                      className="text-decoration-none text-white"
+                    >
+                      <FaInstagram />
+                    </a>
+                  </span>
+                </div>
+              </div>
             </Col>
             <Col lg={3} className="mb-3 text-white text-left">
               <img src={logo} alt="" style={{ width: "180px" }} className="mb-3" />

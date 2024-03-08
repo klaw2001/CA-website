@@ -296,7 +296,7 @@ const AdvanceTax = () => {
     </Container>
       </section>
 
-      <section className="py-5 bg-dark text-light">
+      <section className="py-5 bg-light text-dark">
         <Container className="text-center">
           <h2 className="mb-4">
           Ready to simplify your Advance Tax? Reach out to us for a consultation. We'll assess your needs, explain our process, and get you on the path to stress-free TDS compliance. 

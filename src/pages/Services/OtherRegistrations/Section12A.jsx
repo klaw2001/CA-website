@@ -12,6 +12,7 @@ import {
   Row,
   Table,
 } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const Section12A = () => {
     const services = [
         {
@@ -517,7 +518,7 @@ const Section12A = () => {
     <section className="py-5">
         <Container className="mt-4">
           <h2 className="text-center mb-4">
-            Why Choose RSNRMUNEEMJI for MSME Registration?
+            Why Choose RSNRMUNEEMJI for Section 80G And Section 12A Registration?
           </h2>
           <Row className="mb-4">
             {services.map((service, index) => (
@@ -547,9 +548,12 @@ const Section12A = () => {
           </Row>
 
           <div className="text-center">
+            <Link to="/contact">
+            
             <Button variant="primary" size="lg" className="app-btn">
               Contact Us Today
             </Button>
+            </Link>
           </div>
         </Container>
       </section>

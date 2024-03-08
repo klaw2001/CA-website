@@ -14,7 +14,7 @@ const BooksAndTaxesDropDown = ({handleClose}) => {
     <NavDropdown
       title="Books And Taxes"
       id="basic-nav-dropdown"
-      className="w-100"
+      // className="w-100"
       // show={isDropdownOpen}
       // onMouseEnter={() => setIsDropdownOpen(true)}
       // onMouseLeave={() => setIsDropdownOpen(false)}

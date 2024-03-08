@@ -5,6 +5,7 @@ import {
   FaTwitter,
   FaLinkedin,
   FaInstagram,
+  FaWhatsapp,
 } from "react-icons/fa6";
 import { HiMail } from "react-icons/hi";
 import { IoCall } from "react-icons/io5";
@@ -19,7 +20,7 @@ const TopBar = () => {
                 <div className="me-4 ">
                   <span className="d-flex align-items-center">
                     <HiMail className="text-white fs-5 me-1" />
-                    RSNRmuneemji@gmail.com
+                    rsnrmuneemji@gmail.com
                   </span>
                 </div>
                 <div className="div">
@@ -43,7 +44,11 @@ const TopBar = () => {
                     </a>
                   </span>
                   <span>
-                    <FaTwitter />
+                  <a
+                      href="https://chat.whatsapp.com/J5QaO1gkGUVHPvijMi2J0V"
+                      className="text-decoration-none text-white"
+                    >
+                    <FaWhatsapp /></a>
                   </span>
                   <span>
                     <a
