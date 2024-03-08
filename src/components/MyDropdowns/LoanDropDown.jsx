@@ -34,7 +34,7 @@ const LoanDropDown = ({ handleClose }) => {
             className="text-dark text-decoration-none nav-link"
             onClick={handleClose}
           >
-            Life insurance.
+            Life insurance
           </NavLink>
         </NavDropdown.Item>
       </NavDropdown>
