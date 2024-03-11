@@ -189,6 +189,10 @@ h5{
 .offcanvas-body{
   overflow-x: hidden;
 }
+.app-btn{
+ 
+  width: auto;
+}
 }
 
 @media screen and (max-width:769px) {

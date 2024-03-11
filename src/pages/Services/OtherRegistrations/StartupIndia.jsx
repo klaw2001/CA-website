@@ -399,7 +399,7 @@ const StartupIndia = () => {
               </Card.Text>
 
               {/* CTA Button */}
-              <Button variant="success" className="app-btn border-0" size="lg" block>
+              <Button variant="success" className=" border-0" size="lg" block>
                 <Link to='/contact' className="text-decoration-none text-white">Contact RSNRMUNEEMJI and Ignite Your Startup's Potential!</Link>
               </Button>
             </Card.Body>
